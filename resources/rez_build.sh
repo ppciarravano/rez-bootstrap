@@ -30,10 +30,10 @@ cd $BUILD_PATH/rez
 
 # install using GCC phase 1 and Python
 GCC_PATH=${BOOTSTRAP_THIRDPARTY}/gcc-${COMP_GCC_VERS}
-PYTHON_PATH=${BOOTSTRAP_THIRDPARTY}/python-${COMP_PYTHON_VERS}
 echo "GCC_PATH phase 1: ${GCC_PATH}"
+export PYTHON_PATH=${BOOTSTRAP_THIRDPARTY}/python-${COMP_PYTHON_VERS}:${BOOTSTRAP_THIRDPARTY}/python-${COMP_PYTHON_VERS}/lib:${BOOTSTRAP_THIRDPARTY}/python-${COMP_PYTHON_VERS}/lib/python3.7
 echo "PYTHON_PATH: ${PYTHON_PATH}"
-export PATH=${GCC_PATH}/bin:${PYTHON_PATH}/bin:${PATH}
+export PATH=${GCC_PATH}/bin:${BOOTSTRAP_THIRDPARTY}/python-${COMP_PYTHON_VERS}/bin:${PATH}
 export CC=${GCC_PATH}/bin/gcc
 export CXX=${GCC_PATH}/bin/g++
 #export LD_LIBRARY_PATH=${GCC_PATH}/lib64:${GCC_PATH}/lib/gcc/x86_64-pc-linux-gnu/9.3.1:${LD_LIBRARY_PATH}:/usr/lib64
@@ -43,6 +43,13 @@ export CC_INCLUDE_PATH=${GCC_PATH}/include
 export GCC_LIBRARY_PATH=${GCC_PATH}/lib64:${GCC_PATH}/lib/gcc/x86_64-pc-linux-gnu/9.3.1
 echo "GCC version in use phase 1: $(gcc --version | head -n 1)"
 echo "Python version in use: $(python --version | head -n 1)"
+
+# print all sys modules
+#python -c "import sys; print(sys.modules.keys());"
+
+#Check if setuptools is installed
+python -c "import setuptools;"
+pip list
 
 # install
 python ./install.py -v $INSTALL_PATH

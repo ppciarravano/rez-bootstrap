@@ -15,11 +15,11 @@ def run_wget(source, destination):
         wget_command,
         stdout = subprocess.PIPE,
         stderr = subprocess.PIPE,
-        text = True,
+        # text = True,
         shell = True
     )
     std_out, std_err = process.communicate()
-    print(std_out.strip(), std_err)
+    print(std_out.decode("utf-8").strip(), std_err.decode("utf-8") )
 
 
 def get_hash_sha(source_path):
