@@ -1,0 +1,71 @@
+{
+    "gcc": {
+        "9.3.1": {
+            "source": "https://src.fedoraproject.org/repo/pkgs/gcc/gcc-9.3.1-20200408.tar.xz/sha512/10518ee02087fd37d48bdd52e804dc384357e8744dd064b6b5042b826869d2ec75861c9b4f2dd73ad76cfb619558e0b13735979e3badb920ef029b248fc875a8/gcc-9.3.1-20200408.tar.xz",
+            "destination": "gcc/gcc-9.3.1.tar.xz",
+            "sha256": "b38eda00fa41b6e2ad67ec5a1725be73e6ff05a1e2c1cd4bb04c0d31770f4bdb"
+        }
+    },
+    "gmp": {
+        "6.2.1": {
+            "source": "https://gmplib.org/download/gmp/gmp-6.2.1.tar.xz",
+            "destination": "gmp/gmp-6.2.1.tar.xz",
+            "sha256": "fd4829912cddd12f84181c3451cc752be224643e87fac497b69edddadc49b4f2"
+        }
+    },
+    "mpfr": {
+        "4.1.0": {
+            "source": "https://mpfr.loria.fr/mpfr-current/mpfr-4.1.0.tar.xz",
+            "destination": "mpfr/mpfr-4.1.0.tar.xz",
+            "sha256": "0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f"
+        }
+    },
+    "mpc": {
+        "1.2.1": {
+            "source": "https://ftp.gnu.org/gnu/mpc/mpc-1.2.1.tar.gz",
+            "destination": "mpc/mpc-1.2.1.tar.gz",
+            "sha256": "17503d2c395dfcf106b622dc142683c1199431d095367c6aacba6eec30340459"
+        }
+    },
+    "isl": {
+        "0.24": {
+            "source": "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2",
+            "destination": "isl/isl-0.24.tar.bz2",
+            "sha256": "fcf78dd9656c10eb8cf9fbd5f59a0b6b01386205fe1934b3b287a0a1898145c0"
+        }
+    },
+    "cloog": {
+        "0.18.4": {
+            "source": "http://www.bastoul.net/cloog/pages/download/count.php3?url=./cloog-0.18.4.tar.gz",
+            "destination": "cloog/cloog-0.18.4.tar.gz",
+            "sha256": "325adf3710ce2229b7eeb9e84d3b539556d093ae860027185e7af8a8b00a750e"
+        }
+    },
+    "python": {
+        "3.7.13": {
+            "source": "https://www.python.org/ftp/python/3.7.13/Python-3.7.13.tar.xz",
+            "destination": "python/Python-3.7.13.tar.xz",
+            "sha256": "99f106275df8899c3e8cb9d7c01ce686c202ef275953301427194693de5bef84"
+        },
+        "3.9.13": {
+            "source": "https://www.python.org/ftp/python/3.9.13/Python-3.9.13.tar.xz",
+            "destination": "python/Python-3.9.13.tar.xz",
+            "sha256": "125b0c598f1e15d2aa65406e83f792df7d171cdf38c16803b149994316a3080f"
+        }
+    },
+    "cmake": {
+        "3.24.0": {
+            "source": "https://github.com/Kitware/CMake/releases/download/v3.24.0/cmake-3.24.0.tar.gz",
+            "destination": "cmake/cmake-3.24.0.tar.gz",
+            "sha256": "c2b61f7cdecb1576cad25f918a8f42b8685d88a832fd4b62b9e0fa32e915a658"
+        }
+    },
+    "rez": {
+        "2.111.3": {
+            "source": "https://github.com/AcademySoftwareFoundation/rez/archive/refs/tags/2.111.3.tar.gz",
+            "destination": "rez/rez-2.111.3.tar.gz",
+            "sha256": "a2c64245df90e94380d2d1dd2b5e6fa1c968f701e4c2057d580c9fba1baf24a6"
+        }
+    }
+
+}
