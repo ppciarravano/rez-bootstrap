@@ -6,6 +6,11 @@
 # tar (GNU tar) 1.34 
 # python 3
 # gcc compiler for build gcc
+# flex
+# readline-devel/ncurses
+
+# exit when any command fails
+set -e
 
 # define component versions
 COMP_GCC_VERS="9.3.1"
