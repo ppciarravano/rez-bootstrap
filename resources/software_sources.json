@@ -59,6 +59,13 @@
             "destination": "cmake/cmake-3.24.0.tar.gz",
             "sha256": "c2b61f7cdecb1576cad25f918a8f42b8685d88a832fd4b62b9e0fa32e915a658"
         }
+    },
+    "rez": {
+        "2.111.3": {
+            "source": "https://github.com/AcademySoftwareFoundation/rez/archive/refs/tags/2.111.3.tar.gz",
+            "destination": "rez/rez-2.111.3.tar.gz",
+            "sha256": "a2c64245df90e94380d2d1dd2b5e6fa1c968f701e4c2057d580c9fba1baf24a6"
+        }
     }
 
 }
