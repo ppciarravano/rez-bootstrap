@@ -84,13 +84,34 @@ echo "SOURCE_PYTHON: ${SOURCE_PYTHON}"
 echo "SOURCE_REZ: ${SOURCE_REZ}"
 
 # build and install gcc phase 0
-source ${BOOTSTRAP_RESOURCES}/gcc_build_phase_0.sh
+#source ${BOOTSTRAP_RESOURCES}/gcc_build_phase_0.sh
 
 # build and install gcc phase 1
-source ${BOOTSTRAP_RESOURCES}/gcc_build_phase_1.sh
+#source ${BOOTSTRAP_RESOURCES}/gcc_build_phase_1.sh
 
 # build and install Python
-source ${BOOTSTRAP_RESOURCES}/python_build.sh
+#source ${BOOTSTRAP_RESOURCES}/python_build.sh
 
 # build and install Rez
-source ${BOOTSTRAP_RESOURCES}/rez_build.sh
+#source ${BOOTSTRAP_RESOURCES}/rez_build.sh
+
+# path to rez config dir
+BOOTSTRAP_REZ_CONFIG_DIR=${BOOTSTRAP_PATH}/config
+mkdir -p $BOOTSTRAP_REZ_CONFIG_DIR
+
+# copy rezconfig.py in config dir
+cp -f ${BOOTSTRAP_PATH}/rez/lib/python3.7/site-packages/rez/rezconfig.py ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py
+echo "installed rezconfig.py in ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py"
+
+# install rez_init.sh
+cp -f ${BOOTSTRAP_RESOURCES}/rez_init_template.sh ${BOOTSTRAP_PATH}/rez_init.sh
+chmod +x ${BOOTSTRAP_PATH}/rez_init.sh
+sed -i 's,__BOOTSTRAP_PATH__,'"${BOOTSTRAP_PATH}"',' ${BOOTSTRAP_PATH}/rez_init.sh
+echo "installed rez_init.sh in ${BOOTSTRAP_PATH}/rez_init.sh"
+
+echo ""
+echo "Next steps:"
+echo "configure ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py"
+echo "source ${BOOTSTRAP_PATH}/rez_init.sh"
+echo "rez-bind --quickstart"
+echo "https://github.com/AcademySoftwareFoundation/rez/wiki/Getting-Started"
