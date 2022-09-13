@@ -84,16 +84,16 @@ echo "SOURCE_PYTHON: ${SOURCE_PYTHON}"
 echo "SOURCE_REZ: ${SOURCE_REZ}"
 
 # build and install gcc phase 0
-#source ${BOOTSTRAP_RESOURCES}/gcc_build_phase_0.sh
+source ${BOOTSTRAP_RESOURCES}/gcc_build_phase_0.sh
 
 # build and install gcc phase 1
-#source ${BOOTSTRAP_RESOURCES}/gcc_build_phase_1.sh
+source ${BOOTSTRAP_RESOURCES}/gcc_build_phase_1.sh
 
 # build and install Python
-#source ${BOOTSTRAP_RESOURCES}/python_build.sh
+source ${BOOTSTRAP_RESOURCES}/python_build.sh
 
 # build and install Rez
-#source ${BOOTSTRAP_RESOURCES}/rez_build.sh
+source ${BOOTSTRAP_RESOURCES}/rez_build.sh
 
 # path to rez config dir
 BOOTSTRAP_REZ_CONFIG_DIR=${BOOTSTRAP_PATH}/config
