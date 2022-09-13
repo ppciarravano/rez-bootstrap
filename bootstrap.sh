@@ -7,7 +7,16 @@
 # python 3
 # gcc compiler for build gcc
 # flex
-# readline-devel/ncurses
+# readline-devel
+#
+# libffi-dev
+# libgdbm-compat-dev
+# libbz2-dev
+# libsqlite3-dev
+# uuid-dev
+# libreadline-dev
+# libgdbm-dev
+#
 
 # exit when any command fails
 set -e
