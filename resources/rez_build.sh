@@ -9,6 +9,13 @@ echo "BOOTSTRAP_THIRDPARTY: ${BOOTSTRAP_THIRDPARTY}"
 BUILD_PATH=${BOOTSTRAP_BUILD}/rez-${COMP_REZ_VERS}
 INSTALL_PATH=${BOOTSTRAP_PATH}/rez
 
+# Build only if $INSTALL_PATH does not exist
+if [ -d "${INSTALL_PATH}" ]
+then
+    echo "Already built in ${INSTALL_PATH}, delete dir to force the rebuild."
+    return
+fi
+
 echo "BUILD_PATH: $BUILD_PATH"
 echo "INSTALL_PATH: $INSTALL_PATH"
 
@@ -35,7 +42,7 @@ export PYTHONPATH=${BOOTSTRAP_THIRDPARTY}/python-${COMP_PYTHON_VERS}:${BOOTSTRAP
 echo "PYTHONPATH: ${PYTHONPATH}"
 export PYTHONHOME=${BOOTSTRAP_THIRDPARTY}/python-${COMP_PYTHON_VERS}
 echo "PYTHONHOME: ${PYTHONHOME}"
-export PATH=${GCC_PATH}/bin:${BOOTSTRAP_THIRDPARTY}/python-${COMP_PYTHON_VERS}/bin:${PATH}
+export PATH=${GCC_PATH}/bin:${BOOTSTRAP_THIRDPARTY}/python-${COMP_PYTHON_VERS}/bin:${BOOTSTRAP_THIRDPARTY}/cmake-${COMP_CMAKE_VERS}/bin:${PATH}
 export CC=${GCC_PATH}/bin/gcc
 export CXX=${GCC_PATH}/bin/g++
 #export LD_LIBRARY_PATH=${GCC_PATH}/lib64:${GCC_PATH}/lib/gcc/x86_64-pc-linux-gnu/9.3.1:${LD_LIBRARY_PATH}:/usr/lib64
@@ -43,8 +50,10 @@ export LD_LIBRARY_PATH=${GCC_PATH}/lib64:${GCC_PATH}/lib/gcc/x86_64-pc-linux-gnu
 export GCC_BINARY_PATH=${GCC_PATH}/bin
 export CC_INCLUDE_PATH=${GCC_PATH}/include
 export GCC_LIBRARY_PATH=${GCC_PATH}/lib64:${GCC_PATH}/lib/gcc/x86_64-pc-linux-gnu/9.3.1
+export CMAKE_BINARY_PATH=${BOOTSTRAP_THIRDPARTY}/cmake-${COMP_CMAKE_VERS}/bin
 echo "GCC version in use phase 1: $(gcc --version | head -n 1)"
 echo "Python version in use: $(python --version | head -n 1)"
+echo "CMake version in use: $(cmake --version | head -n 1)"
 
 # print all sys modules
 #python -c "import sys; print(sys.modules.keys());"
