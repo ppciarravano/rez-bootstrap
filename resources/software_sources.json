@@ -58,6 +58,11 @@
             "source": "https://github.com/Kitware/CMake/releases/download/v3.24.0/cmake-3.24.0.tar.gz",
             "destination": "cmake/cmake-3.24.0.tar.gz",
             "sha256": "c2b61f7cdecb1576cad25f918a8f42b8685d88a832fd4b62b9e0fa32e915a658"
+        },
+        "3.24.2": {
+            "source": "https://github.com/Kitware/CMake/releases/download/v3.24.2/cmake-3.24.2.tar.gz",
+            "destination": "cmake/cmake-3.24.2.tar.gz",
+            "sha256": "0d9020f06f3ddf17fb537dc228e1a56c927ee506b486f55fe2dc19f69bf0c8db"
         }
     },
     "rez": {

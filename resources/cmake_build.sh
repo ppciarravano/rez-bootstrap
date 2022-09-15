@@ -1,13 +1,13 @@
 #!/bin/bash
 
-echo "Build and install Python with version:"
-echo "SOURCE_PYTHON: ${SOURCE_PYTHON}"
+echo "Build and install CMake with version:"
+echo "SOURCE_CMAKE: ${SOURCE_CMAKE}"
 
 echo "BOOTSTRAP_BUILD: ${BOOTSTRAP_BUILD}"
 echo "BOOTSTRAP_THIRDPARTY: ${BOOTSTRAP_THIRDPARTY}"
 
-BUILD_PATH=${BOOTSTRAP_BUILD}/python-${COMP_PYTHON_VERS}
-INSTALL_PATH=${BOOTSTRAP_THIRDPARTY}/python-${COMP_PYTHON_VERS}
+BUILD_PATH=${BOOTSTRAP_BUILD}/cmake-${COMP_CMAKE_VERS}
+INSTALL_PATH=${BOOTSTRAP_THIRDPARTY}/cmake-${COMP_CMAKE_VERS}
 
 # Build only if $INSTALL_PATH does not exist
 if [ -d "${INSTALL_PATH}" ]
@@ -26,16 +26,16 @@ mkdir -p $BUILD_PATH
 mkdir -p $INSTALL_PATH
 
 # Untar source files
-tar -xf $SOURCE_PYTHON -C $BUILD_PATH
+tar -xf $SOURCE_CMAKE -C $BUILD_PATH
 
 # Move to the right paths
 cd $BUILD_PATH
-mv Python-* python
+mv cmake-* cmake
 
 # move into source dir
-cd $BUILD_PATH/python
+cd $BUILD_PATH/cmake
 
-# Build Python using GCC phase 1
+# Build CMake using GCC phase 1
 GCC_PATH=${BOOTSTRAP_THIRDPARTY}/gcc-${COMP_GCC_VERS}
 echo "GCC_PATH phase 1: ${GCC_PATH}"
 export PATH=${GCC_PATH}/bin:${PATH}
@@ -50,20 +50,10 @@ echo "GCC version in use phase 1: $(gcc --version | head -n 1)"
 
 # configure
 ./configure \
-    --prefix=${INSTALL_PATH} \
-    CFLAGS="-fPIC" \
-    CXXFLAGS="-fPIC" \
-    --enable-ipv6 \
-    --with-ensurepip=install \
-    --enable-unicode=ucs4
+    --prefix=${INSTALL_PATH}
 
 # build
 make -j${BOOTSTRAP_CPUCORES}
 
 # install
 make install
-
-# create links
-cd $INSTALL_PATH/bin
-ln -s python3 python
-ln -s pip3 pip

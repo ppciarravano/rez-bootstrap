@@ -5,6 +5,7 @@ import subprocess
 import os
 from os import path
 import hashlib
+import sys
 
 
 def run_wget(source, destination):
@@ -30,39 +31,51 @@ def get_hash_sha(source_path):
         return readable_hash
 
 
-def download_sources():
+def download_single_source(component, version, data):
+
+    definition = data[component][version]
+    source = definition["source"]
+    destination = definition["destination"]
+    hash_sha = definition["sha256"]
+
+    print(f"Component: {component} {version}")
+    if path.exists(destination):
+        print(f"Component already downloaded: {component} {version}")
+    else:
+        destination_dirpath = path.dirname(destination)
+        os.makedirs(destination_dirpath, exist_ok=True)
+        print(f"download: {component} {version}")
+        run_wget(source, destination)
+        print(f"downloaded: {component} {version}")
+
+    # verify hash
+    hash_read = get_hash_sha(destination)
+    if hash_sha != hash_read:
+        raise Exception(f"Hash for component {component} {version} does not match: {hash_read}")
+    else:
+        print(f"Hash OK for component {component} {version}")
+
+
+def download_sources(component=None, version=None):
 
     script_path = path.dirname(path.realpath(__file__))
     with open(f"{script_path}/software_sources.json", "r") as f:
         data = json.load(f)
 
-    for component, versions in data.items():
-        for version, definition in versions.items():
-            source = definition["source"]
-            destination = definition["destination"]
-            hash_sha = definition["sha256"]
-
-            print(f"Component: {component} {version}")
-            if path.exists(destination):
-                print(f"Component already downloaded: {component} {version}")
-            else:
-                destination_dirpath = path.dirname(destination)
-                os.makedirs(destination_dirpath, exist_ok=True)
-                print(f"download: {component} {version}")
-                run_wget(source, destination)
-                print(f"downloaded: {component} {version}")
-
-            # verify hash
-            hash_read = get_hash_sha(destination)
-            if hash_sha != hash_read:
-                raise Exception(f"Hash for component {component} {version} does not match: {hash_read}")
-            else:
-                print(f"Hash OK for component {component} {version}")
+    if component and version:
+        download_single_source(component, version, data)
+    else:
+        for component, versions in data.items():
+            for version in versions.keys():
+                download_single_source(component, version, data)
 
 
 def main():
-    download_sources()
-
+    args = sys.argv[1:]
+    if len(args) == 2:
+        download_sources(component=args[0], version=args[1])
+    else:
+        download_sources()
 
 if __name__ == "__main__":
     main()

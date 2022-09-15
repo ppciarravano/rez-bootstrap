@@ -15,6 +15,13 @@ echo "BOOTSTRAP_THIRDPARTY: ${BOOTSTRAP_THIRDPARTY}"
 BUILD_PATH=${BOOTSTRAP_BUILD}/gcc-${COMP_GCC_VERS}_phase_1
 INSTALL_PATH=${BOOTSTRAP_THIRDPARTY}/gcc-${COMP_GCC_VERS}
 
+# Build only if $INSTALL_PATH does not exist
+if [ -d "${INSTALL_PATH}" ]
+then
+    echo "Already built in ${INSTALL_PATH}, delete dir to force the rebuild."
+    return
+fi
+
 echo "BUILD_PATH: $BUILD_PATH"
 echo "INSTALL_PATH: $INSTALL_PATH"
 

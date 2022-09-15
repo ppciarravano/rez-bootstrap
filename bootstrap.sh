@@ -10,12 +10,13 @@
 # readline-devel
 #
 # libffi-dev
-# libgdbm-compat-dev
+# libgdbm-compat-dev/gdbm-devel
 # libbz2-dev
-# libsqlite3-dev
-# uuid-dev
+# libsqlite3-dev/libsq3-devel
+# uuid-dev/uuid-devel
 # libreadline-dev
 # libgdbm-dev
+# libnsl2-devel
 #
 
 # exit when any command fails
@@ -29,6 +30,7 @@ COMP_MPC_VERS="1.2.1"
 COMP_ISL_VERS="0.24"
 COMP_CLOOG_VERS="0.18.4"
 COMP_PYTHON_VERS="3.7.13"
+COMP_CMAKE_VERS="3.24.2"
 COMP_REZ_VERS="2.111.3"
 
 # path for final destination of python/gcc/rez/lunch scripts
@@ -71,6 +73,7 @@ SOURCE_MPC=${BOOTSTRAP_SOFTWARE}/$(${GET_COMPONENT_DESTINATION_SCRIPT} mpc ${COM
 SOURCE_ISL=${BOOTSTRAP_SOFTWARE}/$(${GET_COMPONENT_DESTINATION_SCRIPT} isl ${COMP_ISL_VERS})
 SOURCE_CLOOG=${BOOTSTRAP_SOFTWARE}/$(${GET_COMPONENT_DESTINATION_SCRIPT} cloog ${COMP_CLOOG_VERS})
 SOURCE_PYTHON=${BOOTSTRAP_SOFTWARE}/$(${GET_COMPONENT_DESTINATION_SCRIPT} python ${COMP_PYTHON_VERS})
+SOURCE_CMAKE=${BOOTSTRAP_SOFTWARE}/$(${GET_COMPONENT_DESTINATION_SCRIPT} cmake ${COMP_CMAKE_VERS})
 SOURCE_REZ=${BOOTSTRAP_SOFTWARE}/$(${GET_COMPONENT_DESTINATION_SCRIPT} rez ${COMP_REZ_VERS})
 
 cd $BOOTSTRAP_PATH
@@ -81,6 +84,7 @@ echo "SOURCE_MPC: ${SOURCE_MPC}"
 echo "SOURCE_ISL: ${SOURCE_ISL}"
 echo "SOURCE_CLOOG: ${SOURCE_CLOOG}"
 echo "SOURCE_PYTHON: ${SOURCE_PYTHON}"
+echo "SOURCE_CMAKE: ${SOURCE_CMAKE}"
 echo "SOURCE_REZ: ${SOURCE_REZ}"
 
 # build and install gcc phase 0
@@ -92,25 +96,36 @@ source ${BOOTSTRAP_RESOURCES}/gcc_build_phase_1.sh
 # build and install Python
 source ${BOOTSTRAP_RESOURCES}/python_build.sh
 
+# build and install CMake
+source ${BOOTSTRAP_RESOURCES}/cmake_build.sh
+
 # build and install Rez
 source ${BOOTSTRAP_RESOURCES}/rez_build.sh
 
 # path to rez config dir
 BOOTSTRAP_REZ_CONFIG_DIR=${BOOTSTRAP_PATH}/config
-mkdir -p $BOOTSTRAP_REZ_CONFIG_DIR
 
 # copy rezconfig.py in config dir
-cp -f ${BOOTSTRAP_PATH}/rez/lib/python3.7/site-packages/rez/rezconfig.py ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py
-echo "installed rezconfig.py in ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py"
+if [ ! -f "${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py" ]
+then
+    mkdir -p $BOOTSTRAP_REZ_CONFIG_DIR
+    cp -f ${BOOTSTRAP_PATH}/rez/lib/python3.7/site-packages/rez/rezconfig.py ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py
+    echo "installed rezconfig.py in ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py"
+fi
 
 # install rez_init.sh
-cp -f ${BOOTSTRAP_RESOURCES}/rez_init_template.sh ${BOOTSTRAP_PATH}/rez_init.sh
-chmod +x ${BOOTSTRAP_PATH}/rez_init.sh
-sed -i 's,__BOOTSTRAP_PATH__,'"${BOOTSTRAP_PATH}"',' ${BOOTSTRAP_PATH}/rez_init.sh
-echo "installed rez_init.sh in ${BOOTSTRAP_PATH}/rez_init.sh"
+if [ ! -f "${BOOTSTRAP_PATH}/rez_init.sh" ]
+then
+    cp -f ${BOOTSTRAP_RESOURCES}/rez_init_template.sh ${BOOTSTRAP_PATH}/rez_init.sh
+    chmod +x ${BOOTSTRAP_PATH}/rez_init.sh
+    sed -i 's,__BOOTSTRAP_PATH__,'"${BOOTSTRAP_PATH}"',' ${BOOTSTRAP_PATH}/rez_init.sh
+    echo "installed rez_init.sh in ${BOOTSTRAP_PATH}/rez_init.sh"
+fi
 
 echo ""
-echo "Next steps:"
+echo "All done!"
+echo "Next manual steps:"
+echo "rm bootstrap.sh"
 echo "configure ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py"
 echo "source ${BOOTSTRAP_PATH}/rez_init.sh"
 echo "rez-bind --quickstart"
