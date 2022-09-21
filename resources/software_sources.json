@@ -37,6 +37,7 @@
     "cloog": {
         "0.18.4": {
             "source": "http://www.bastoul.net/cloog/pages/download/count.php3?url=./cloog-0.18.4.tar.gz",
+            "source_alternative_1": "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/cloog/0.18.4-2/cloog_0.18.4.orig.tar.gz",
             "destination": "cloog/cloog-0.18.4.tar.gz",
             "sha256": "325adf3710ce2229b7eeb9e84d3b539556d093ae860027185e7af8a8b00a750e"
         }
@@ -71,6 +72,34 @@
             "destination": "rez/rez-2.111.3.tar.gz",
             "sha256": "a2c64245df90e94380d2d1dd2b5e6fa1c968f701e4c2057d580c9fba1baf24a6"
         }
-    }
-
+    },
+    "qt": {
+        "5.15.6": {
+            "source": "https://download.qt.io/official_releases/qt/5.15/5.15.6/single/qt-everywhere-opensource-src-5.15.6.tar.xz",
+            "destination": "qt/qt-5.15.6.tar.xz",
+            "sha256": "ebc77d27934b70b25b3dc34fbec7c4471eb451848e891c42b32409ea30fe309f"
+        },
+	"5.15.2": {
+            "source": "https://download.qt.io/official_releases/qt/5.15/5.15.2/single/qt-everywhere-src-5.15.2.tar.xz",
+            "destination": "qt/qt-5.15.2.tar.xz",
+            "sha256": "3a530d1b243b5dec00bc54937455471aaa3e56849d2593edb8ded07228202240"
+        }
+    },
+    "boost": {
+        "1.73.0": {
+            "source": "https://boostorg.jfrog.io/artifactory/main/release/1.73.0/source/boost_1_73_0.tar.gz",
+            "destination": "boost/boost-1.73.0.tar.gz",
+            "sha256": "9995e192e68528793755692917f9eb6422f3052a53c5e13ba278a228af6c7acf"
+        },
+	"1.76.0": {
+            "source": "https://boostorg.jfrog.io/artifactory/main/release/1.76.0/source/boost_1_76_0.tar.gz",
+            "destination": "boost/boost-1.76.0.tar.gz",
+            "sha256": "7bd7ddceec1a1dfdcbdb3e609b60d01739c38390a5f956385a12f3122049f0ca"
+        },
+	"1.80.0": {
+            "source": "https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.gz",
+            "destination": "boost/boost-1.80.0.tar.gz",
+            "sha256": "4b2136f98bdd1f5857f1c3dea9ac2018effe65286cf251534b6ae20cc45e1847"
+        }
+    } 
 }

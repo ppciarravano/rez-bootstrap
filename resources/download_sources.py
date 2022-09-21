@@ -7,6 +7,12 @@ from os import path
 import hashlib
 import sys
 
+#
+# To download a single source:
+# ${BOOTSTRAP_PATH}/resources/download_sources.py python 3.7.13
+# To download all the sources:
+# ${BOOTSTRAP_PATH}/resources/download_sources.py
+#
 
 def run_wget(source, destination):
 
@@ -38,6 +44,10 @@ def download_single_source(component, version, data):
     destination = definition["destination"]
     hash_sha = definition["sha256"]
 
+    if "REZ_REPO_PAYLOAD_DIR" in os.environ:
+        rez_repo_payload_dir = os.environ["REZ_REPO_PAYLOAD_DIR"]
+        destination = f"{rez_repo_payload_dir}/{destination}"
+
     print(f"Component: {component} {version}")
     if path.exists(destination):
         print(f"Component already downloaded: {component} {version}")
@@ -59,6 +69,7 @@ def download_single_source(component, version, data):
 def download_sources(component=None, version=None):
 
     script_path = path.dirname(path.realpath(__file__))
+    # TODO: change software_sources.json location
     with open(f"{script_path}/software_sources.json", "r") as f:
         data = json.load(f)
 
