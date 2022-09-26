@@ -144,5 +144,15 @@
             "destination": "openvdb/openvdb-9.1.0.tar.gz",
             "sha256": "914ee417b4607c75c95b53bc73a0599de4157c7d6a32e849e80f24e40fb64181"
         }
+    },
+    "zlib": {
+        "1.2.12": {
+            "source": "https://github.com/madler/zlib/archive/refs/tags/v1.2.12.tar.gz",
+            "destination": "zlib/zlib-1.2.12.tar.gz",
+            "sha256": "d8688496ea40fb61787500e863cc63c9afcbc524468cedeb478068924eb54932"
+        }
     }
 }
+
+
+
