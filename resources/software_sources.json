@@ -151,6 +151,20 @@
             "destination": "zlib/zlib-1.2.12.tar.gz",
             "sha256": "d8688496ea40fb61787500e863cc63c9afcbc524468cedeb478068924eb54932"
         }
+    },
+    "blosc": {
+        "1.21.1": {
+            "source": "https://github.com/Blosc/c-blosc/archive/refs/tags/v1.21.1.tar.gz",
+            "destination": "blosc/blosc-1.21.1.tar.gz",
+            "sha256": "f387149eab24efa01c308e4cba0f59f64ccae57292ec9c794002232f7903b55b"
+        }
+    },
+    "glfw": {
+        "3.3.8": {
+            "source": "https://github.com/glfw/glfw/archive/refs/tags/3.3.8.tar.gz",
+            "destination": "glfw/glfw-3.3.8.tar.gz",
+            "sha256": "f30f42e05f11e5fc62483e513b0488d5bceeab7d9c5da0ffe2252ad81816c713"
+        }
     }
 }
 
