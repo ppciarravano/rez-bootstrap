@@ -153,6 +153,11 @@
         }
     },
     "blosc": {
+        "1.5.0": {
+            "source": "https://github.com/Blosc/c-blosc/archive/refs/tags/v1.5.0.tar.gz",
+            "destination": "blosc/blosc-1.5.0.tar.gz",
+            "sha256": "208ba4db0e5116421ed2fbbdf2adfa3e1d133d29a6324a0f47cf2d71f3810c92"
+        },
         "1.21.1": {
             "source": "https://github.com/Blosc/c-blosc/archive/refs/tags/v1.21.1.tar.gz",
             "destination": "blosc/blosc-1.21.1.tar.gz",
@@ -167,6 +172,3 @@
         }
     }
 }
-
-
-
