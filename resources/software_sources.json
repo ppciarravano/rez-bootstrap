@@ -177,5 +177,17 @@
             "destination": "jemalloc/jemalloc-5.3.0.tar.gz",
             "sha256": "ef6f74fd45e95ee4ef7f9e19ebe5b075ca6b7fbe0140612b2a161abafb7ee179"
         }
+    },
+    "ocio": {
+        "2.0.4": {
+            "source": "https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/refs/tags/v2.0.4.tar.gz",
+            "destination": "ocio/ocio-2.0.4.tar.gz",
+            "sha256": "2f103b0f4127b4b041162dc190dc06a4fe25b6995aab122e82ca549478f6ef41"
+        },
+        "2.1.2": {
+            "source": "https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/refs/tags/v2.1.2.tar.gz",
+            "destination": "ocio/ocio-2.1.2.tar.gz",
+            "sha256": "6c6d153470a7dbe56136073e7abea42fa34d06edc519ffc0a159daf9f9962b0b"
+        }
     }
 }
