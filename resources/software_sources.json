@@ -189,5 +189,12 @@
             "destination": "ocio/ocio-2.1.2.tar.gz",
             "sha256": "6c6d153470a7dbe56136073e7abea42fa34d06edc519ffc0a159daf9f9962b0b"
         }
+    },
+    "glew": {
+        "2.1.0": {
+            "source": "https://github.com/nigels-com/glew/archive/refs/tags/glew-2.1.0.tar.gz",
+            "destination": "glew/glew-2.1.0.tar.gz",
+            "sha256": "0ba16ec1c52e967ead002b4b1890cf16397e5a6331d123d4bc4385839562ced4"
+        }
     }
 }
