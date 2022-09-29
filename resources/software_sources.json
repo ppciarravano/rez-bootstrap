@@ -209,5 +209,17 @@
             "destination": "alembic/alembic-1.8.3.tar.gz",
             "sha256": "b0bc74833bff118a869e81e6acb810a58797e77ef63143954b2f8e817c7f65cb"
         }
+    },
+    "ptex": {
+        "2.3.2": {
+            "source": "https://github.com/wdas/ptex/archive/refs/tags/v2.3.2.tar.gz",
+            "destination": "ptex/ptex-2.3.2.tar.gz",
+            "sha256": "30aeb85b965ca542a8945b75285cd67d8e207d23dbb57fcfeaab587bb443402b"
+        },
+        "2.4.2": {
+            "source": "https://github.com/wdas/ptex/archive/refs/tags/v2.4.2.tar.gz",
+            "destination": "ptex/ptex-2.4.2.tar.gz",
+            "sha256": "c8235fb30c921cfb10848f4ea04d5b662ba46886c5e32ad5137c5086f3979ee1"
+        }
     }
 }
