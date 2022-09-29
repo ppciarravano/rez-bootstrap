@@ -197,5 +197,17 @@
             "destination": "glew/glew-2.1.0.tar.gz",
             "sha256": "04de91e7e6763039bc11940095cd9c7f880baba82196a7765f727ac05a993c95"
         }
+    },
+    "alembic": {
+        "1.7.16": {
+            "source": "https://github.com/alembic/alembic/archive/refs/tags/1.7.16.tar.gz",
+            "destination": "alembic/alembic-1.7.16.tar.gz",
+            "sha256": "2529586c89459af34d27a36ab114ad1d43dafd44061e65cfcfc73b7457379e7c"
+        },
+        "1.8.3": {
+            "source": "https://github.com/alembic/alembic/archive/refs/tags/1.8.3.tar.gz",
+            "destination": "alembic/alembic-1.8.3.tar.gz",
+            "sha256": "b0bc74833bff118a869e81e6acb810a58797e77ef63143954b2f8e817c7f65cb"
+        }
     }
 }
