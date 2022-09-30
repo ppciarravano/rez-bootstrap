@@ -228,5 +228,41 @@
             "destination": "opensubdiv/opensubdiv-3.4.4.tar.gz",
             "sha256": "20d49f80a2b778ad4d01f091ad88d8c2f91cf6c7363940c6213241ce6f1048fb"
         }
+    },
+    "fbxsdk": {
+        "2020.2": {
+            "source_redirect": "https://www.autodesk.com/content/dam/autodesk/www/adn/fbx/2020-2/fbx20202_fbxsdk_linux.tar.gz",
+            "source": "https://damassets.autodesk.net/content/dam/autodesk/www/adn/fbx/2020-2/fbx20202_fbxsdk_linux.tar.gz",
+            "destination": "fbxsdk/fbxsdk-2020.2.tar.gz",
+            "sha256": "773199d2f4b01482b54eb7818b897d6341b208cef6e59586e34a44f179bc633f"
+        }
+    },
+    "fbxpythonsdk": {
+        "2020.2": {
+            "source_redirect": "https://www.autodesk.com/content/dam/autodesk/www/adn/fbx/2020-2/fbx20202_fbxpythonsdk_linux.tar.gz",
+            "source": "https://damassets.autodesk.net/content/dam/autodesk/www/adn/fbx/2020-2/fbx20202_fbxpythonsdk_linux.tar.gz",
+            "destination": "fbxpythonsdk/fbxpythonsdk-2020.2.tar.gz",
+            "sha256": "00bda55a78ad421712a89940d23d4862b4ba6d00e28e2f8ea46b00ba14b3aead"
+        }
+    },
+    "fbxpythonbindings": {
+        "2020.2": {
+            "source_redirect": "https://www.autodesk.com/content/dam/autodesk/www/adn/fbx/2020-2/fbx20202_fbxpythonbindings_linux.tar.gz",
+            "source": "https://damassets.autodesk.net/content/dam/autodesk/www/adn/fbx/2020-2/fbx20202_fbxpythonbindings_linux.tar.gz",
+            "destination": "fbxpythonbindings/fbxpythonbindings-2020.2.tar.gz",
+            "sha256": "7fe091ccaf119e7bc51aa1cf98c6f99d276cc5a4f8215562c7a3927e6c5f13e3"
+        }
+    },
+    "aces": {
+        "1.2": {
+            "source": "https://github.com/ampas/aces-dev/archive/refs/tags/v1.2.tar.gz",
+            "destination": "aces/aces-1.2.tar.gz",
+            "sha256": "716465ed87aa49ef462a99898c8fdaba02932fcc108b320719dbe9f843b7b27b"
+        },
+        "1.3": {
+            "source": "https://github.com/ampas/aces-dev/archive/refs/tags/v1.3.tar.gz",
+            "destination": "aces/aces-1.3.tar.gz",
+            "sha256": "aee50ff7467d5443280de452b51e63937b9c383c5108ba1c8b9b67ad83f32d98"
+        }
     }
 }
