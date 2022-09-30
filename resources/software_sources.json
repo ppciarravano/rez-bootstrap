@@ -221,5 +221,12 @@
             "destination": "ptex/ptex-2.4.2.tar.gz",
             "sha256": "c8235fb30c921cfb10848f4ea04d5b662ba46886c5e32ad5137c5086f3979ee1"
         }
+    },
+    "opensubdiv": {
+        "3.4.4": {
+            "source": "https://github.com/PixarAnimationStudios/OpenSubdiv/archive/refs/tags/v3_4_4.tar.gz",
+            "destination": "opensubdiv/opensubdiv-3.4.4.tar.gz",
+            "sha256": "20d49f80a2b778ad4d01f091ad88d8c2f91cf6c7363940c6213241ce6f1048fb"
+        }
     }
 }
