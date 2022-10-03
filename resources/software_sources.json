@@ -278,8 +278,12 @@
             "destination": "jpegturbo/jpegturbo-2.0.6.tar.gz",
             "sha256": "005aee2fcdca252cee42271f7f90574dda64ca6505d9f8b86ae61abc2b426371"
         }
+    },
+    "libtiff": {
+        "4.4.0": {
+            "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.4.0/libtiff-v4.4.0.tar.gz",
+            "destination": "libtiff/libtiff-4.4.0.tar.gz",
+            "sha256": "d118fc97748333ae6c53302ea06584148b72e128e924253d346b802d2a80a567"
+        }
     }
 }
-
-
-
