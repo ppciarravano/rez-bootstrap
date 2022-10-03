@@ -299,5 +299,12 @@
             "destination": "openjpeg/openjpeg-2.5.0.tar.gz",
             "sha256": "0333806d6adecc6f7a91243b2b839ff4d2053823634d4f6ed7a59bc87409122a"
         }
+    },
+    "pugixml": {
+        "1.12.1": {
+            "source": "https://github.com/zeux/pugixml/archive/refs/tags/v1.12.1.tar.gz",
+            "destination": "pugixml/pugixml-1.12.1.tar.gz",
+            "sha256": "0333806d6adecc6f7a91243b2b839ff4d2053823634d4f6ed7a59bc87409122a"
+        }
     }
 }
