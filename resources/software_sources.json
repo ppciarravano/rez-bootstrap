@@ -264,5 +264,12 @@
             "destination": "aces/aces-1.3.tar.gz",
             "sha256": "aee50ff7467d5443280de452b51e63937b9c383c5108ba1c8b9b67ad83f32d98"
         }
+    },
+    "pybind11": {
+        "2.9.2": {
+            "source": "https://github.com/pybind/pybind11/archive/refs/tags/v2.9.2.tar.gz",
+            "destination": "pybind11/pybind11-2.9.2.tar.gz",
+            "sha256": "6bd528c4dbe2276635dc787b6b1f2e5316cf6b49ee3e150264e455a0d68d19c1"
+        }
     }
 }
