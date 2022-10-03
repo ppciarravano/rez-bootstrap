@@ -286,4 +286,12 @@
             "sha256": "d118fc97748333ae6c53302ea06584148b72e128e924253d346b802d2a80a567"
         }
     }
+    ,
+    "png": {
+        "1.6.38": {
+            "source": "https://netix.dl.sourceforge.net/project/libpng/libpng16/1.6.38/libpng-1.6.38.tar.xz",
+            "destination": "png/png-1.6.38.tar.xz",
+            "sha256": "b3683e8b8111ebf6f1ac004ebb6b0c975cd310ec469d98364388e9cedbfa68be"
+        }
+    }
 }
