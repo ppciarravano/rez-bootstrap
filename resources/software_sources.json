@@ -304,7 +304,7 @@
         "1.12.1": {
             "source": "https://github.com/zeux/pugixml/archive/refs/tags/v1.12.1.tar.gz",
             "destination": "pugixml/pugixml-1.12.1.tar.gz",
-            "sha256": "0333806d6adecc6f7a91243b2b839ff4d2053823634d4f6ed7a59bc87409122a"
+            "sha256": "1e28ab24b6e04e013d96f45d25e9f2d04c921dc68c613fd010ecaaad3892c14d"
         }
     }
 }
