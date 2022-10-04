@@ -313,5 +313,17 @@
             "destination": "oiio/oiio-2.3.19.0.tar.gz",
             "sha256": "602c146aebee775f123459a6c6be753054144b8d82777de26965f2cc3e88113a"
         }
+    },
+    "usd": {
+        "21.11": {
+            "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v21.11.tar.gz",
+            "destination": "usd/usd-21.11.tar.gz",
+            "sha256": "7adfde17b8ee294ee7002edb240555c61b5135fa215a7252b2a8e291bb9c4b44"
+        },
+        "22.08": {
+            "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v22.08.tar.gz",
+            "destination": "usd/usd-22.08.tar.gz",
+            "sha256": "c90f04843151a23c1b0a184de06f6dae54fb4f379c44d17c28e25f11b43b6e70"
+        }
     }
 }
