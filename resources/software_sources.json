@@ -330,5 +330,12 @@
             "destination": "usd/usd-22.08.tar.gz",
             "sha256": "c90f04843151a23c1b0a184de06f6dae54fb4f379c44d17c28e25f11b43b6e70"
         }
+    },
+    "vscode": {
+        "1.72.0": {
+            "source": "https://az764295.vo.msecnd.net/stable/64bbfbf67ada9953918d72e1df2f4d8e537d340e/code-stable-x64-1664927249.tar.gz",
+            "destination": "vscode/vscode-1.72.0.tar.gz",
+            "sha256": "3a0f78fb412e5bf8f490193c076c0f075d33e324b036968488fa03d4284f8c80"
+        }
     }
 }
