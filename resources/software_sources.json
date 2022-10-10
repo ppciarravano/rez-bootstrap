@@ -45,12 +45,12 @@
     "python": {
         "3.7.13": {
             "source": "https://www.python.org/ftp/python/3.7.13/Python-3.7.13.tar.xz",
-            "destination": "python/Python-3.7.13.tar.xz",
+            "destination": "python/python-3.7.13.tar.xz",
             "sha256": "99f106275df8899c3e8cb9d7c01ce686c202ef275953301427194693de5bef84"
         },
         "3.9.13": {
             "source": "https://www.python.org/ftp/python/3.9.13/Python-3.9.13.tar.xz",
-            "destination": "python/Python-3.9.13.tar.xz",
+            "destination": "python/python-3.9.13.tar.xz",
             "sha256": "125b0c598f1e15d2aa65406e83f792df7d171cdf38c16803b149994316a3080f"
         }
     },
