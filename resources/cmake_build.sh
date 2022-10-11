@@ -50,7 +50,8 @@ echo "GCC version in use phase 1: $(gcc --version | head -n 1)"
 
 # configure
 ./configure \
-    --prefix=${INSTALL_PATH}
+    --prefix=${INSTALL_PATH} \
+    CXXFLAGS="-fPIC -std=c++17 -D_GLIBCXX_USE_CXX11_ABI=0"
 
 # build
 make -j${BOOTSTRAP_CPUCORES}
