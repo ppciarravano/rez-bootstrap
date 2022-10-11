@@ -337,5 +337,12 @@
             "destination": "vscode/vscode-1.72.0.tar.gz",
             "sha256": "3a0f78fb412e5bf8f490193c076c0f075d33e324b036968488fa03d4284f8c80"
         }
+    },
+    "nuke": {
+        "13.2.4": {
+            "source": "https://www.foundry.com/products/download_product?file=Nuke13.2v4-linux-x86_64.tgz",
+            "destination": "nuke/Nuke13.2v4-linux-x86_64.tgz",
+            "sha256": "efd75e78072fdcfd8cd1a0eadfec1dba4d63e5af3046f43b66bfca228b0ee4f4"
+        }
     }
 }
