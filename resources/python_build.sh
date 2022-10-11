@@ -52,7 +52,7 @@ echo "GCC version in use phase 1: $(gcc --version | head -n 1)"
 ./configure \
     --prefix=${INSTALL_PATH} \
     CFLAGS="-fPIC" \
-    CXXFLAGS="-fPIC" \
+    CXXFLAGS="-fPIC -std=c++17 -D_GLIBCXX_USE_CXX11_ABI=0" \
     --enable-ipv6 \
     --with-ensurepip=install \
     --enable-unicode=ucs4

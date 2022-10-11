@@ -61,7 +61,7 @@ cd $BUILD_PATH/gcc
 ./configure \
     --prefix=${INSTALL_PATH} \
     CFLAGS="-fPIC" \
-    CXXFLAGS="-fPIC" \
+    CXXFLAGS="-fPIC -std=c++17 -D_GLIBCXX_USE_CXX11_ABI=0" \
     --with-pic \
     --enable-languages=c,c++ \
     --disable-multilib \
