@@ -74,7 +74,7 @@ echo "GCC version in use phase 0: $(gcc --version | head -n 1)"
 ./configure \
     --prefix=${INSTALL_PATH} \
     CFLAGS="-fPIC" \
-    CXXFLAGS="-fPIC -D_GLIBCXX_USE_CXX11_ABI=0" \
+    CXXFLAGS="-fPIC" \
     --with-pic \
     --enable-languages=c,c++ \
     --disable-multilib \
