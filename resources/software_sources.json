@@ -348,7 +348,7 @@
     "houdini": {
         "19.5.368": {
             "source": "https://www.sidefx.com/download/download-houdini/93810/",
-            "destination": "houdini/houdini-19.5.368-linux_x86_64_gcc9.3.tar.gz ",
+            "destination": "houdini/houdini-19.5.368-linux_x86_64_gcc9.3.tar.gz",
             "sha256": "f49a45882acf4511c7baabbebcce8ce1c764d3616dc962268a767f94e0ccbec0"
         }
     }
