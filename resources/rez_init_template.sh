@@ -1,5 +1,18 @@
 #!/bin/bash
 
+# # find SCRIPT_ABS_PATH
+# # If $0 is a symlink, resolve it to a file
+# f="$0"
+# if [ -L "$f" ]; then
+#     f="$(readlink -f "$f" 2> /dev/null)"
+#     if [ "$?" != "0" ]; then
+# 	f="$0"
+#     fi
+# fi
+# SCRIPT_RELATIVE_PATH="$(dirname "$f")"
+# cd $SCRIPT_RELATIVE_PATH
+# SCRIPT_ABS_PATH=`pwd`
+
 COMP_GCC_VERS="__COMP_GCC_VERS__"
 COMP_PYTHON_VERS="__COMP_PYTHON_VERS__"
 COMP_CMAKE_VERS="__COMP_CMAKE_VERS__"
