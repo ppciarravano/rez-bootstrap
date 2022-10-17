@@ -63,7 +63,15 @@ BOOTSTRAP_RESOURCES=${BOOTSTRAP_PATH}/resources
 # Download and check the software
 cd $BOOTSTRAP_SOFTWARE
 echo "Download and check software..."
-${BOOTSTRAP_RESOURCES}/download_sources.py
+${BOOTSTRAP_RESOURCES}/download_sources.py gcc ${COMP_GCC_VERS}
+${BOOTSTRAP_RESOURCES}/download_sources.py gmp ${COMP_GMP_VERS}
+${BOOTSTRAP_RESOURCES}/download_sources.py mpfr ${COMP_MPFR_VERS}
+${BOOTSTRAP_RESOURCES}/download_sources.py mpc ${COMP_MPC_VERS}
+${BOOTSTRAP_RESOURCES}/download_sources.py isl ${COMP_ISL_VERS}
+${BOOTSTRAP_RESOURCES}/download_sources.py cloog ${COMP_CLOOG_VERS}
+${BOOTSTRAP_RESOURCES}/download_sources.py python ${COMP_PYTHON_VERS}
+${BOOTSTRAP_RESOURCES}/download_sources.py cmake ${COMP_CMAKE_VERS}
+${BOOTSTRAP_RESOURCES}/download_sources.py rez ${COMP_REZ_VERS}
 
 # get component files source
 GET_COMPONENT_DESTINATION_SCRIPT=${BOOTSTRAP_RESOURCES}/get_component_destination.py
