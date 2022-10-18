@@ -351,5 +351,12 @@
             "destination": "houdini/houdini-19.5.368-linux_x86_64_gcc9.3.tar.gz",
             "sha256": "f49a45882acf4511c7baabbebcce8ce1c764d3616dc962268a767f94e0ccbec0"
         }
+    },
+    "maya": {
+        "2023.2": {
+            "source": "https://www.autodesk.com",
+            "destination": "maya/Autodesk_Maya_2023_2_Update_Linux_64bit.tgz",
+            "sha256": "6757fb58464a2b698f8ae12e24bba6107b6b8e430a268c903cd7a4b499a172ca"
+        }
     }
 }
