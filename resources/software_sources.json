@@ -292,6 +292,11 @@
         }
     },
     "png": {
+        "1.5.15": {
+            "source": "https://netix.dl.sourceforge.net/project/libpng/libpng15/older-releases/1.5.15/libpng-1.5.15.tar.gz",
+            "destination": "png/png-1.5.15.tar.xz",
+            "sha256": "726224b7a6b5ad0032078bf3fb5a84ffb5ad683a33a62d67f7be5eb5bc37d076"
+        },
         "1.6.38": {
             "source": "https://netix.dl.sourceforge.net/project/libpng/libpng16/1.6.38/libpng-1.6.38.tar.xz",
             "destination": "png/png-1.6.38.tar.xz",
