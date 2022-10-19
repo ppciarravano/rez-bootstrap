@@ -37,6 +37,7 @@ export PATH=${BOOTSTRAP_THIRDPARTY}/cmake-${COMP_CMAKE_VERS}/bin:${PATH}
 export CMAKE_BINARY_PATH=${BOOTSTRAP_THIRDPARTY}/cmake-${COMP_CMAKE_VERS}/bin
 
 # Rez
+#export REZ_ENV_PROMPT=
 export PATH=${BOOTSTRAP_PATH}/rez/bin/rez:${PATH}
 export REZ_CONFIG_FILE=${BOOTSTRAP_PATH}/config/rezconfig.py
 echo "REZ_CONFIG_FILE: ${REZ_CONFIG_FILE}"
