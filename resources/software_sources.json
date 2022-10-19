@@ -363,5 +363,12 @@
             "destination": "maya/Autodesk_Maya_2023_2_Update_Linux_64bit.tgz",
             "sha256": "6757fb58464a2b698f8ae12e24bba6107b6b8e430a268c903cd7a4b499a172ca"
         }
+    },
+    "openpype": {
+        "3.14.3": {
+            "source": "https://github.com/pypeclub/OpenPype/releases/download/3.14.3/openpype-3.14.3-centos.zip",
+            "destination": "openpype/openpype-3.14.3.zip",
+            "sha256": "63fb15c2cf692c802e206995a613c99a2c0bae48f8c06315795dfb93d59bf788"
+        }
     }
 }
