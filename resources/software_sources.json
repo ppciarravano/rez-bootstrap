@@ -355,6 +355,11 @@
             "source": "https://www.sidefx.com/download/download-houdini/93810/",
             "destination": "houdini/houdini-19.5.368-linux_x86_64_gcc9.3.tar.gz",
             "sha256": "f49a45882acf4511c7baabbebcce8ce1c764d3616dc962268a767f94e0ccbec0"
+        },
+        "19.5.403": {
+            "source": "https://www.sidefx.com/download/download-houdini/95035/",
+            "destination": "houdini/houdini-19.5.403-linux_x86_64_gcc9.3.tar.gz",
+            "sha256": "ffb9322c4a5e831b3f0f84958538530ffa8b243d5c92b32458483d7d7df68323"
         }
     },
     "maya": {
