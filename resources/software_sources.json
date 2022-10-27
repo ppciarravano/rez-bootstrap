@@ -374,6 +374,11 @@
             "source": "https://github.com/pypeclub/OpenPype/releases/download/3.14.3/openpype-3.14.3-centos.zip",
             "destination": "openpype/openpype-3.14.3.zip",
             "sha256": "63fb15c2cf692c802e206995a613c99a2c0bae48f8c06315795dfb93d59bf788"
+        },
+        "3.14.5": {
+            "source": "https://github.com/pypeclub/OpenPype/releases/download/3.14.5/openpype-3.14.5-centos.zip",
+            "destination": "openpype/openpype-3.14.5.zip",
+            "sha256": "586e3d10afa0233aa73a788bff108b99278aaf16615b782a2db63e5b4268678b"
         }
     }
 }
