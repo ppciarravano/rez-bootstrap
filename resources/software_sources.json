@@ -334,6 +334,11 @@
             "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v22.08.tar.gz",
             "destination": "usd/usd-22.08.tar.gz",
             "sha256": "c90f04843151a23c1b0a184de06f6dae54fb4f379c44d17c28e25f11b43b6e70"
+        },
+        "22.11": {
+            "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v22.11.tar.gz",
+            "destination": "usd/usd-22.11.tar.gz",
+            "sha256": "f34826475bb9385a9e94e2fe272cc713f517b987cbea15ee6bbc6b21db19aaae"
         }
     },
     "vscode": {
