@@ -385,5 +385,12 @@
             "destination": "openpype/openpype-3.14.5.zip",
             "sha256": "586e3d10afa0233aa73a788bff108b99278aaf16615b782a2db63e5b4268678b"
         }
+    },
+    "neatvideo": {
+        "5.5.5-ofx": {
+            "source": "https://www.neatvideo.com/download/products/nv5ofxs/5.5.5/NeatVideo5OFX.Studio.Intel64.tgz",
+            "destination": "neatvideo/neatvideo-5.5.5-ofx.tgz",
+            "sha256": "80528118a3119826e8083f255de0eb1ec0f94a4e2accaa28ffba2b7d1254251f"
+        }
     }
 }
