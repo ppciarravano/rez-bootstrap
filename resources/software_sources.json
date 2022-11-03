@@ -406,5 +406,12 @@
             "destination": "pixelfudger/pixelfudger-2015.1.23.zip",
             "sha256": "70a91a95d26a0c47f9ad49f49cb32f58f154783e9cdd334bfddb7c43bfd4b555"
         }
+    },
+    "mochapro": {
+        "9.5.4": {
+            "source": "https://borisfx.com/downloads/?product=mocha&host=ofx",
+            "destination": "mochapro/MochaPro2022.5-OFX-9.5.4-15.gc02196055959.rhel.rpm",
+            "sha256": "488d9858309cb75e847cbb58b11b2a9d155f5e770bfacc4540120a88b6604902"
+        }
     }
 }
