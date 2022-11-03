@@ -413,5 +413,12 @@
             "destination": "mochapro/MochaPro2022.5-OFX-9.5.4-15.gc02196055959.rhel.rpm",
             "sha256": "488d9858309cb75e847cbb58b11b2a9d155f5e770bfacc4540120a88b6604902"
         }
+    },
+    "rv": {
+        "2022.3.1": {
+            "source": "https://sg-software.ems.autodesk.com/deploy/rv/Current_Release/Linux-release.tar.gz",
+            "destination": "rv/rv-2022.3.1.tar.gz",
+            "sha256": "7e0e44e1adee97c6016d32764999ee564be52a584d970d6e88d3b60dc14ea085"
+        }
     }
 }
