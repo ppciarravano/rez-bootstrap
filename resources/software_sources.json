@@ -392,5 +392,19 @@
             "destination": "neatvideo/neatvideo-5.5.5-ofx.tgz",
             "sha256": "80528118a3119826e8083f255de0eb1ec0f94a4e2accaa28ffba2b7d1254251f"
         }
+    },
+    "nukesurvivaltoolkit": {
+        "2.1.1": {
+            "source": "https://github.com/CreativeLyons/NukeSurvivalToolkit_publicRelease/archive/refs/tags/v2.1.1.tar.gz",
+            "destination": "nukesurvivaltoolkit/nukesurvivaltoolkit-2.1.1.tgz",
+            "sha256": "136b13994848c12171a05b5c39b4a7131b2407ada337c337e5653fcbef21c148"
+        }
+    },
+    "pixelfudger": {
+        "2015.1.23": {
+            "source": "http://www.pixelfudger.com/downloads/pixelfudger_23jan2015.zip",
+            "destination": "pixelfudger/pixelfudger-2015.1.23.zip",
+            "sha256": "70a91a95d26a0c47f9ad49f49cb32f58f154783e9cdd334bfddb7c43bfd4b555"
+        }
     }
 }
