@@ -425,5 +425,13 @@
             "destination": "rv/rv-2022.3.1.tar.gz",
             "sha256": "7e0e44e1adee97c6016d32764999ee564be52a584d970d6e88d3b60dc14ea085"
         }
+    },
+    "redshift": {
+        "3.5.10": {
+            "source": "https://installer.maxon.net/installer/rs/redshift_v3.5.10_linux.run",
+            "destination": "redshift/redshift_v3.5.10_linux.run",
+            "sha256": "3488374e81a3598abcc714610b645a8b735e1d827ec8a5259bbbb8f7a71da41d"
+        }
     }
+
 }
