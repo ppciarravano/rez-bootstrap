@@ -393,17 +393,17 @@
         "3.14.7": {
             "source": "https://github.com/pypeclub/OpenPype/releases/download/3.14.7/openpype-3.14.7-centos7.zip",
             "destination": "openpype/openpype-3.14.7.zip",
-            "sha256": "aaaaaaaa"
+            "sha256": "abc6399084967e84193716d2511e7362fb9beed2229b7a38b2098a272a9fa896"
         },
         "3.14.6.ubuntu": {
             "source": "https://github.com/pypeclub/OpenPype/releases/download/3.14.6/openpype-3.14.6-ubuntu.zip",
             "destination": "openpype/openpype-3.14.6.ubuntu.zip",
-            "sha256": "aaaaaaaa"
+            "sha256": "2a80c12c2c74c45d0b885462b4a8312ec116bf80bdcdecbb2069860644de01b4"
         },
         "3.14.7.ubuntu": {
             "source": "https://github.com/pypeclub/OpenPype/releases/download/3.14.7/openpype-3.14.7-ubuntu.zip",
             "destination": "openpype/openpype-3.14.7.ubuntu.zip",
-            "sha256": "aaaaaaaa"
+            "sha256": "9ca7995feae751622e462d6964fbc673b0a7fa5bc5b745aa843406c0a9a79925"
         }
     },
     "neatvideo": {
