@@ -447,6 +447,12 @@
             "destination": "redshift/redshift_v3.5.10_linux.run",
             "sha256": "3488374e81a3598abcc714610b645a8b735e1d827ec8a5259bbbb8f7a71da41d"
         }
+    },
+    "djv": {
+        "2.0.8": {
+            "source": "https://netix.dl.sourceforge.net/project/djv/djv-beta/2.0.8/DJV-2.0.8-Linux.tar.gz",
+            "destination": "djv/djv-2.0.8.tar.gz",
+            "sha256": "7482f1a144a8c572f08a16e6a80272ca8c78df6e4864dc82f7c287400f4372c8"
+        }
     }
-
 }
