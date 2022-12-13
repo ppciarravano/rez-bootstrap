@@ -454,5 +454,19 @@
             "destination": "djv/djv-2.0.8.tar.gz",
             "sha256": "7482f1a144a8c572f08a16e6a80272ca8c78df6e4864dc82f7c287400f4372c8"
         }
+    },
+    "nukepediaplugins": {
+        "1.0.0": {
+            "source": "http://www.nukepedia.com",
+            "destination": "nukepediaplugins/nukepediaplugins-1.0.0.tar.gz",
+            "sha256": "121c48ab16ac98bbdd7e5b448030c5c01eb8fc83f5920962e0f77999e041b988"
+        }
+    },
+    "opticalflares": {
+        "1.0.9": {
+            "source": "https://www.videocopilot.net/account/downloads/",
+            "destination": "opticalflares/opticalflares-1.0.0.zip",
+            "sha256": "c6716d15bcf81a4b5502943ac4c01e0638af2ef4764c86617cb7e61966b9213c"
+        }
     }
 }
