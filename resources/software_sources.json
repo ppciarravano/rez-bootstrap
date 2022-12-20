@@ -500,10 +500,10 @@
             "sha256": "9c94f8c2bfabba919ae286350769a92a411a024dc1c9e53ada1769733a128c95"
         }
     },
-    "davinceresolve": {
+    "davinciresolve": {
         "17.4.6": {
             "source": "https://www.blackmagicdesign.com",
-            "destination": "davinceresolve/DaVinci_Resolve_17.4.6_Linux.zip",
+            "destination": "davinciresolve/DaVinci_Resolve_17.4.6_Linux.zip",
             "sha256": "1b40cd2d0fc9590f4a2b732d70fb232c96a5999ce49638b739e5d7ed308b9b6e"
         }
     },
