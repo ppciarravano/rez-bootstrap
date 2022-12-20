@@ -486,10 +486,10 @@
             "sha256": "f9aaf69339e4aad3b7927a4cf7ba372453e393df662c92bc1fedf94e0c6b5382"
         }
     },
-    "substance": {
+    "substance3dpainter": {
         "8.1.0": {
             "source": "https://www.adobe.com",
-            "destination": "substance/Adobe_Substance_3D_Painter-8.1.0-1699-linux-x86_64-standard.rpm",
+            "destination": "substance3dpainter/Adobe_Substance_3D_Painter-8.1.0-1699-linux-x86_64-standard.rpm",
             "sha256": "821aac896d49903e869748604c2346ef6bebabdadaaf20da3eaaf2e97f27ecab"
         }
     },
