@@ -478,5 +478,54 @@
             "destination": "opticalflares/opticalflares-1.0.9.zip",
             "sha256": "c6716d15bcf81a4b5502943ac4c01e0638af2ef4764c86617cb7e61966b9213c"
         }
+    },
+    "blender": {
+        "3.4.0": {
+            "source": "https://ftp.halifax.rwth-aachen.de/blender/release/Blender3.4/blender-3.4.0-linux-x64.tar.xz",
+            "destination": "blender/blender-3.4.0.tar.xz",
+            "sha256": "f9aaf69339e4aad3b7927a4cf7ba372453e393df662c92bc1fedf94e0c6b5382"
+        }
+    },
+    "substance": {
+        "8.1.0": {
+            "source": "https://www.adobe.com",
+            "destination": "substance/Adobe_Substance_3D_Painter-8.1.0-1699-linux-x86_64-standard.rpm",
+            "sha256": "821aac896d49903e869748604c2346ef6bebabdadaaf20da3eaaf2e97f27ecab"
+        }
+    },
+    "mari": {
+        "5.0v2": {
+            "source": "https://www.foundry.com",
+            "destination": "mari/Mari5.0v2-linux-x86-release-64.run",
+            "sha256": "9c94f8c2bfabba919ae286350769a92a411a024dc1c9e53ada1769733a128c95"
+        }
+    },
+    "davinceresolve": {
+        "17.4.6": {
+            "source": "https://www.blackmagicdesign.com",
+            "destination": "davinceresolve/DaVinci_Resolve_17.4.6_Linux.zip",
+            "sha256": "1b40cd2d0fc9590f4a2b732d70fb232c96a5999ce49638b739e5d7ed308b9b6e"
+        }
+    },
+    "speedtree": {
+        "9.1.1": {
+            "source": "https://store.speedtree.com",
+            "destination": "speedtree/SpeedTree_Cinema_v9.1.1_Linux.tar.gz",
+            "sha256": "2f2725cf1ed6f0ceec82c89af1a9519e9b67d624c31e768ab2c58840fd2d5a05"
+        }
+    },
+    "ptgui": {
+        "12.10": {
+            "source": "https://ptgui.com",
+            "destination": "ptgui/PTGui_Pro_12.10.tar.gz",
+            "sha256": "d9bd24f1d9ac7b97dce483c7b4bb4340a70284a316426083515cad82284472a2"
+        }
+    },
+    "3dequalizer": {
+        "7.0": {
+            "source": "https://www.3dequalizer.com",
+            "destination": "3dequalizer/3DE4_linux64_r7.0.tar.gz",
+            "sha256": "4bc88641ed20dccffca00cf8e56f2c38a4aa502305f039f173c19168f91f9232"
+        }
     }
 }
