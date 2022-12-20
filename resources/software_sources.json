@@ -478,5 +478,6 @@
             "destination": "opticalflares/opticalflares-1.0.9.zip",
             "sha256": "c6716d15bcf81a4b5502943ac4c01e0638af2ef4764c86617cb7e61966b9213c"
         }
-    }
+    },
+    test
 }
