@@ -494,7 +494,7 @@
         }
     },
     "mari": {
-        "5.0v2": {
+        "5.0.2": {
             "source": "https://www.foundry.com",
             "destination": "mari/Mari5.0v2-linux-x86-release-64.run",
             "sha256": "9c94f8c2bfabba919ae286350769a92a411a024dc1c9e53ada1769733a128c95"
