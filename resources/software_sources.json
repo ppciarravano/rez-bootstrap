@@ -349,6 +349,16 @@
         }
     },
     "nuke": {
+        "12.2.10": {
+            "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/12.2v10/Nuke12.2v10-linux-x86_64.tgz",
+            "destination": "nuke/Nuke12.2v10-linux-x86_64.tgz",
+            "sha256": "eb56b7d4f16d914a6f2eca3f750cac9fbdfaa692b1922a350fddf80f9059c030"
+        },
+        "12.2.11": {
+            "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/12.2v11/Nuke12.2v11-linux-x86_64.tgz",
+            "destination": "nuke/Nuke12.2v11-linux-x86_64.tgz",
+            "sha256": "a2576768b0028eb3d4a3c720883adea06fdc7a24ebd94c6c8bb7ed947aad519e"
+        },
         "13.2.4": {
             "source": "https://www.foundry.com/products/download_product?file=Nuke13.2v4-linux-x86_64.tgz",
             "destination": "nuke/Nuke13.2v4-linux-x86_64.tgz",
