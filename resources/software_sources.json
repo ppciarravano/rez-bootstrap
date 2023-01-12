@@ -366,6 +366,16 @@
         }
     },
     "houdini": {
+        "18.5.696": {
+            "source": "https://www.sidefx.com/download/download-houdini/79576/",
+            "destination": "houdini/houdini-py3-18.5.696-linux_x86_64_gcc6.3.tar.gz",
+            "sha256": "d6b38f29653926792d192a17e7dcc930d8ced48fbcf4be4e7b13e875a3d6c0dc"
+        },
+        "18.5.759": {
+            "source": "https://www.sidefx.com/download/download-houdini/81832/",
+            "destination": "houdini/houdini-py3-18.5.759-linux_x86_64_gcc6.3.tar.gz",
+            "sha256": "f2663a9bdb194b159bf78e3a51dae4f0321e925074e25537ee9c2c9c7e36ae47"
+        },
         "19.5.368": {
             "source": "https://www.sidefx.com/download/download-houdini/93810/",
             "destination": "houdini/houdini-19.5.368-linux_x86_64_gcc9.3.tar.gz",
