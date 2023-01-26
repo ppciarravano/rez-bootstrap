@@ -567,5 +567,12 @@
             "destination": "3dequalizer/3DE4_linux64_r7.0.tar.gz",
             "sha256": "4bc88641ed20dccffca00cf8e56f2c38a4aa502305f039f173c19168f91f9232"
         }
+    },
+    "daselement": {
+        "1.2.3": {
+            "source": "https://das-element.com/download/das-element_1-2-3_lin-rpm/?wpdmdl=3020",
+            "destination": "daselement/das-element_1-2-3_lin-rpm",
+            "sha256": "e29ffef588e26e373018d51a6e75ed991652f449e86cc3ab9012aab2b7884afb"
+        }
     }
 }
