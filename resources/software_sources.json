@@ -363,6 +363,18 @@
             "source": "https://www.foundry.com/products/download_product?file=Nuke13.2v4-linux-x86_64.tgz",
             "destination": "nuke/Nuke13.2v4-linux-x86_64.tgz",
             "sha256": "efd75e78072fdcfd8cd1a0eadfec1dba4d63e5af3046f43b66bfca228b0ee4f4"
+        },
+        "14.0.2": {
+            "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/14.0v2/Nuke14.0v2-linux-x86_64.tgz",
+            "destination": "nuke/Nuke14.0v2-linux-x86_64.tgz",
+            "sha256": "3015387bae24a9f8d53976660f83266b0c755d3e2e65bcff21794f269f669a23"
+        }
+    },
+    "modo": {
+        "16.0.4": {
+            "source": "https://thefoundry.s3.amazonaws.com/products/modo/16.0v4/Modo16.0v4_Linux.run",
+            "destination": "nuke/Modo16.0v4_Linux.run",
+            "sha256": "bcbb4c7c230d8cdb669d476ff9e4646942954a2e15afe7583cd4b4429f7adbcf"
         }
     },
     "houdini": {
