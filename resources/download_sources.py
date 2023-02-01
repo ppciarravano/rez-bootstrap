@@ -73,6 +73,9 @@ def download_sources(component=None, version=None):
     with open(f"{script_path}/software_sources.json", "r") as f:
         data = json.load(f)
 
+    # TODO: save sorted json file
+    # print(json.dumps(data, indent=4, sort_keys=True))
+
     if component and version:
         download_single_source(component, version, data)
     else:
