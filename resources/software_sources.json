@@ -690,7 +690,7 @@
             "sha256": "1d3e1c42d655baf0f1e0789c1008bb4556d9d849fa08cd8d9ea2bbfb5482df6c"
         }
     },
-    "rizomlab": {
+    "rizomuv": {
         "2022.1.57": {
             "source": "https://www.rizom-lab.com/download_setup.php?file=RizomUV.2022.1.57.gfabcfb8.master.2022-09-29.AppImage&account=licensing@misc-studios.com",
             "destination": "rizomlab/RizomUV.2022.1.57.gfabcfb8.master.2022-09-29.AppImage",
