@@ -559,10 +559,10 @@
             "sha256": "1b40cd2d0fc9590f4a2b732d70fb232c96a5999ce49638b739e5d7ed308b9b6e"
         }
     },
-    "speedtree": {
+    "speedtreecinema": {
         "9.1.1": {
             "source": "https://store.speedtree.com",
-            "destination": "speedtree/SpeedTree_Cinema_v9.1.1_Linux.tar.gz",
+            "destination": "speedtreecinema/SpeedTree_Cinema_v9.1.1_Linux.tar.gz",
             "sha256": "2f2725cf1ed6f0ceec82c89af1a9519e9b67d624c31e768ab2c58840fd2d5a05"
         }
     },
