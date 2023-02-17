@@ -710,5 +710,12 @@
             "destination": "rawtherapee/RawTherapee_5.9.AppImage",
             "sha256": "463f838981a1f11dff37160b1dc5c67a13d27066b869d8dea301db416871eb67"
         }
+    },
+    "libreoffice": {
+        "7.3.7.2": {
+            "source": "https://appimages.libreitalia.org/LibreOffice-still.full-x86_64.AppImage",
+            "destination": "libreoffice/LibreOffice-still-7.3.7.2.full-x86_64.AppImage",
+            "sha256": "485155fc32a343e2d6e70bbc1f2097facf5b13ac3b9c5ed870eb7cc8e5732215"
+        }
     }
 }
