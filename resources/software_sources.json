@@ -717,5 +717,12 @@
             "destination": "libreoffice/LibreOffice-still-7.3.7.2.full-x86_64.AppImage",
             "sha256": "485155fc32a343e2d6e70bbc1f2097facf5b13ac3b9c5ed870eb7cc8e5732215"
         }
+    },
+    "mayasecuritytools": {
+        "1.0.3": {
+            "source": "https://apps.autodesk.com/MAYA/en/Detail/Index?id=8637238041954239715&os=Win64&appLang=en",
+            "destination": "mayasecuritytools/MayaScanner-linux.sh",
+            "sha256": "b09adb5e0c032b684cbe38928f512de752a76b051b7b405962b57e493af3b114"
+        }
     }
 }
