@@ -564,6 +564,11 @@
             "source": "https://store.speedtree.com",
             "destination": "speedtreecinema/SpeedTree_Cinema_v9.1.1_Linux.tar.gz",
             "sha256": "2f2725cf1ed6f0ceec82c89af1a9519e9b67d624c31e768ab2c58840fd2d5a05"
+        },
+        "8.4.2": {
+            "source": "https://store.speedtree.com/?download_file=302633",
+            "destination": "speedtreecinema/SpeedTree_Cinema_v8.4.2_Linux.tar.gz",
+            "sha256": "4b15b2a1f1ad0fb82eb2aa1ac2ecf3449ee49a8530a1640a48c714b63ff8c8a1"
         }
     },
     "ptgui": {
