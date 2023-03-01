@@ -576,6 +576,11 @@
             "source": "https://ptgui.com",
             "destination": "ptgui/PTGui_Pro_12.10.tar.gz",
             "sha256": "d9bd24f1d9ac7b97dce483c7b4bb4340a70284a316426083515cad82284472a2"
+        },
+        "12.20": {
+            "source": "https://ptgui.com",
+            "destination": "ptgui/PTGui_Pro_12.20.tar.gz",
+            "sha256": "0e4bf221bf414f52ec270e2263bfc36d9c52c90f36e99e7a77ea4299583abd57"
         }
     },
     "3dequalizer": {
