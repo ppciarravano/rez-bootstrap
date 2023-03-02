@@ -529,6 +529,11 @@
             "source": "https://www.videocopilot.net/account/downloads/",
             "destination": "opticalflares/opticalflares-1.0.9.zip",
             "sha256": "c6716d15bcf81a4b5502943ac4c01e0638af2ef4764c86617cb7e61966b9213c"
+        },
+        "1.0.9-nodelocked": {
+            "source": "https://www.videocopilot.net/account/downloads/",
+            "destination": "opticalflares/OpticalFlares_Nuke_13.2_Node-Locked_1.0.9.zip",
+            "sha256": "470743040d0f76a7effa1db6ec8365ee980673336779424045384ea5f28cca44"
         }
     },
     "blender": {
