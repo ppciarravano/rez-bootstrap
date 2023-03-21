@@ -739,5 +739,12 @@
             "destination": "mayasecuritytools/MayaScanner-linux.sh",
             "sha256": "b09adb5e0c032b684cbe38928f512de752a76b051b7b405962b57e493af3b114"
         }
+    },
+    "arnold": {
+        "6.1.4.0-houdini-19.5.403": {
+            "source": "https://wdown.solidangle.com/htoa/htoa-6.1.4.0_rf6de6a9_houdini-19.5.403_linux.run",
+            "destination": "arnold/htoa-6.1.4.0_rf6de6a9_houdini-19.5.403_linux.run",
+            "sha256": "62df1fdd2a3c9780b59a68bdd4e9b1b1dc3a63ac55e7dcbbd853126d9d878cea"
+        }
     }
 }
