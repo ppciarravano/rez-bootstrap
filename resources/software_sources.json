@@ -756,5 +756,19 @@
             "destination": "arnold/htoa-6.1.4.0_rf6de6a9_houdini-19.5.403_linux.run",
             "sha256": "62df1fdd2a3c9780b59a68bdd4e9b1b1dc3a63ac55e7dcbbd853126d9d878cea"
         }
+    },
+    "meshroom": {
+        "2023.1.0": {
+            "source": "https://www.fosshub.com/Meshroom.html?dwl=Meshroom-2023.1.0-linux.tar.gz",
+            "destination": "meshroom/Meshroom-2023.1.0-linux.tar.gz",
+            "sha256": "aa1556f342690a017055e3836df3e020188087298d4e4272b85f809fd14cc437"
+        }
+    },
+    "pureref": {
+        "1.11.1": {
+            "source": "https://www.pureref.com/download.php",
+            "destination": "pureref/PureRef-1.11.1_x64.Appimage",
+            "sha256": "75afdd1f4aee239eb6272969bc4f5fdb3314489e7af93ed8d3194fff1af7ca16"
+        }
     }
 }
