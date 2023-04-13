@@ -447,6 +447,11 @@
             "destination": "openpype/openpype-3.15.2.zip",
             "sha256": "a11fe2b84f3b7648a921263227a885af6281af4daa468eb47b33715810387d3e"
         },
+        "3.15.3": {
+            "source": "https://github.com/ynput/OpenPype/releases/download/3.15.3/openpype-3.15.3-centos7.zip",
+            "destination": "openpype/openpype-3.15.3.zip",
+            "sha256": "765bdbb113ba157718b367928bb01cab2ac5ec63488d42abb705513d5dd1d149"
++        },
         "3.14.6.ubuntu": {
             "source": "https://github.com/pypeclub/OpenPype/releases/download/3.14.6/openpype-3.14.6-ubuntu.zip",
             "destination": "openpype/openpype-3.14.6.ubuntu.zip",
@@ -476,6 +481,11 @@
             "source": "https://github.com/ynput/OpenPype/releases/download/3.15.2/openpype-3.15.2-ubuntu.zip",
             "destination": "openpype/openpype-3.15.2.ubuntu.zip",
             "sha256": "8b1ba34428e8696418e5590d7b4299fd5154fcc404b6e1fc12994b2dce0a2aaf"
+        },
+        "3.15.3.ubuntu": {
+            "source": "https://github.com/ynput/OpenPype/releases/download/3.15.3/openpype-3.15.3-ubuntu.zip",
+            "destination": "openpype/openpype-3.15.3.ubuntu.zip",
+            "sha256": "effccf15e1624e5266a514c2ea604fe196dfb40e2b6849f7975028c127555b82"
         }
     },
     "neatvideo": {
