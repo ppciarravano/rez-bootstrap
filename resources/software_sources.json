@@ -780,5 +780,12 @@
             "destination": "pureref/PureRef-1.11.1_x64.Appimage",
             "sha256": "75afdd1f4aee239eb6272969bc4f5fdb3314489e7af93ed8d3194fff1af7ca16"
         }
+    },
+    "oidn": {
+        "1.4.3": {
+            "source": "https://github.com/OpenImageDenoise/oidn/releases/download/v1.4.3/oidn-1.4.3.x86_64.linux.tar.gz",
+            "destination": "oidn/oidn-1.4.3.x86_64.linux.tar.gz",
+            "sha256": "f6ec3b996c69386bbc69f61bc0e6fd17765530e6aa788cfc7a5d3e739548cd58"
+        }
     }
 }
