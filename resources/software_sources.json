@@ -368,6 +368,11 @@
             "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/14.0v2/Nuke14.0v2-linux-x86_64.tgz",
             "destination": "nuke/Nuke14.0v2-linux-x86_64.tgz",
             "sha256": "3015387bae24a9f8d53976660f83266b0c755d3e2e65bcff21794f269f669a23"
+        },
+        "14.0.4": {
+            "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/14.0v4/Nuke14.0v4-linux-x86_64.tgz",
+            "destination": "nuke/Nuke14.0v4-linux-x86_64.tgz",
+            "sha256": "6a3eb1c03a6d345530bc54d024a037c3890625edb047c09bf3f8fd1d3a79c1d9"
         }
     },
     "modo": {
@@ -554,6 +559,11 @@
             "source": "https://www.videocopilot.net/account/downloads/",
             "destination": "opticalflares/OpticalFlares_Nuke_13.2_Node-Locked_1.0.9.zip",
             "sha256": "470743040d0f76a7effa1db6ec8365ee980673336779424045384ea5f28cca44"
+        },
+        "1.0.93-nuke14": {
+            "source": "https://www.videocopilot.net/account/downloads/",
+            "destination": "opticalflares/OpticalFlares_Nuke_14.0_Floating_Linux_1.0.93.zip",
+            "sha256": "0b06f7f0bfe9bbb1e1b3f0215dea105be0d2b93b8dc5211037a3e35fb7eb8466"
         }
     },
     "blender": {
