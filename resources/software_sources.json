@@ -802,7 +802,12 @@
             "destination": "oidn/oidn-1.4.3.src.tar.gz",
             "sha256": "3276e252297ebad67a999298d8f0c30cfb221e166b166ae5c955d88b94ad062a"
         }
+    },
+    "gaffer": {
+        "1.2.4.0": {
+            "source": "https://github.com/GafferHQ/gaffer/releases/download/1.2.4.0/gaffer-1.2.4.0-linux.tar.gz",
+            "destination": "gaffer/gaffer-1.2.4.0-linux.tar.gz",
+            "sha256": "9643bdf1c7fe48b99c1450b6e2acb8c86dadba66cd01ebe407d1de21b4d0e474"
+        }
     }
 }
-
-
