@@ -831,6 +831,16 @@
         }
     },
     "cuda": {
+        "11.8.0_520.61.05": {
+            "source": "https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda_11.8.0_520.61.05_linux.run",
+            "destination": "cuda/cuda_11.8.0_520.61.05_linux.run",
+            "sha256": "9223c4af3aebe4a7bbed9abd9b163b03a1b34b855fbc2b4a0d1b706ac09a5a16"
+        },
+        "12.0.1_525.85.12": {
+            "source": "https://developer.download.nvidia.com/compute/cuda/12.0.1/local_installers/cuda_12.0.1_525.85.12_linux.run",
+            "destination": "cuda/cuda_12.0.1_525.85.12_linux.run",
+            "sha256": "1b205a06272f1463f477276fdab903f3f666917c068e520738001e69c7a1875b"
+        },
         "12.1.1_530.30.02": {
             "source": "https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda_12.1.1_530.30.02_linux.run",
             "destination": "cuda/cuda_12.1.1_530.30.02_linux.run",
