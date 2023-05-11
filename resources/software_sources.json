@@ -838,7 +838,7 @@
         }
     },
     "optix": {
-        "7.5": {
+        "7.5.0": {
             "source": "https://developer.download.nvidia.com/designworks/optix/secure/7.5.0/NVIDIA-OptiX-SDK-7.5.0-linux64-x86_64.sh",
             "destination": "optix/NVIDIA-OptiX-SDK-7.5.0-linux64-x86_64.sh",
             "sha256": "ec8f80350870275e6536a4150a65976d7b391f605ef2c09616486569aa60b670"
