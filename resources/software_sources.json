@@ -853,5 +853,12 @@
             "destination": "optix/NVIDIA-OptiX-SDK-7.5.0-linux64-x86_64.sh",
             "sha256": "ec8f80350870275e6536a4150a65976d7b391f605ef2c09616486569aa60b670"
         }
+    },
+    "pbrt": {
+        "v4-12052023": {
+            "source": "https://github.com/mmp/pbrt-v4",
+            "destination": "pbrt/pbrt-v4-12052023.tgz",
+            "sha256": "d9dda097b235b7da2fde289578c824f943290d4e1982920186653c068f4d3668"
+        }
     }
 }
