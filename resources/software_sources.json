@@ -860,5 +860,12 @@
             "destination": "pbrt/pbrt-v4-12052023.tgz",
             "sha256": "d9dda097b235b7da2fde289578c824f943290d4e1982920186653c068f4d3668"
         }
+    },
+    "cinesync": {
+        "4.2.8": {
+            "source": "https://cospective.com/wp-content/uploads/2022/08/cineSync_LINUX64_4.2.8.tar.gz",
+            "destination": "cinesync/cineSync_LINUX64_4.2.8.tar.gz",
+            "sha256": "cca084d539b8366e608eba7f4c170f46e3029f4576f09b32a26b31402c5e380c"
+        }
     }
 }
