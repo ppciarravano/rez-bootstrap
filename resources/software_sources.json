@@ -867,5 +867,17 @@
             "destination": "cinesync/cineSync_LINUX64_4.2.8.tar.gz",
             "sha256": "cca084d539b8366e608eba7f4c170f46e3029f4576f09b32a26b31402c5e380c"
         }
+    },
+    "keentools": {
+        "2023.1.0-13.2": {
+            "source": "https://downloads.keentools.io/keentools-2023_1_0-for-nuke-13_2-linux",
+            "destination": "keentools/keentools-2023.1.0-for-nuke-13.2-linux.zip",
+            "sha256": "cd6c0568fbb1a76af7fc0c47ac369d5ebdb85d3c8731b1ea33ff1d12fee3ca54"
+        },
+        "2023.1.0-14.0": {
+            "source": "https://downloads.keentools.io/keentools-2023_1_0-for-nuke-14_0-linux",
+            "destination": "keentools/keentools-2023.1.0-for-nuke-14.0-linux.zip",
+            "sha256": "8023923dcb2c2f9a2eee4ccfc322ed37ebb0aff760a0b7f74efca08d162020d8"
+        }
     }
 }
