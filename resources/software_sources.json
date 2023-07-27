@@ -15,7 +15,7 @@
     },
     "mpfr": {
         "4.1.0": {
-            "source": "https://mpfr.loria.fr/mpfr-current/mpfr-4.1.0.tar.xz",
+            "source": "https://www.mpfr.org/mpfr-4.1.0/mpfr-4.1.0.tar.xz",
             "destination": "mpfr/mpfr-4.1.0.tar.xz",
             "sha256": "0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f"
         }
@@ -71,6 +71,11 @@
             "source": "https://github.com/AcademySoftwareFoundation/rez/archive/refs/tags/2.111.3.tar.gz",
             "destination": "rez/rez-2.111.3.tar.gz",
             "sha256": "a2c64245df90e94380d2d1dd2b5e6fa1c968f701e4c2057d580c9fba1baf24a6"
+        },
+        "2.112.0": {
+            "source": "https://github.com/AcademySoftwareFoundation/rez/archive/refs/tags/2.112.0.tar.gz",
+            "destination": "rez/rez-2.112.0.tar.gz",
+            "sha256": "badee0e52245e37eeb83a830956922a796588cf335964ceda63ab5f0c7c8a53e"
         }
     },
     "qt": {

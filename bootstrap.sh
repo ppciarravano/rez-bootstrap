@@ -34,7 +34,7 @@ COMP_PYTHON_VERS="3.7.13"
 # VFX CY2022
 #COMP_PYTHON_VERS="3.9.13"
 COMP_CMAKE_VERS="3.24.2"
-COMP_REZ_VERS="2.111.3"
+COMP_REZ_VERS="2.112.0"
 
 # path for final destination of python/gcc/rez/lunch scripts
 BOOTSTRAP_PATH=`pwd`
