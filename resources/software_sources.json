@@ -333,17 +333,17 @@
         "21.11": {
             "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v21.11.tar.gz",
             "destination": "usd/usd-21.11.tar.gz",
-            "sha256": "7adfde17b8ee294ee7002edb240555c61b5135fa215a7252b2a8e291bb9c4b44"
+            "sha256": "9af6322c5ee852455a341c3ce6668747d73f0d936c62f462dc726cd98facfbfb"
         },
         "22.08": {
             "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v22.08.tar.gz",
             "destination": "usd/usd-22.08.tar.gz",
-            "sha256": "c90f04843151a23c1b0a184de06f6dae54fb4f379c44d17c28e25f11b43b6e70"
+            "sha256": "7d22f58f54ec42e818838c28e86871c176b4a8697402e89934125346c3b0359f"
         },
         "22.11": {
             "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v22.11.tar.gz",
             "destination": "usd/usd-22.11.tar.gz",
-            "sha256": "f34826475bb9385a9e94e2fe272cc713f517b987cbea15ee6bbc6b21db19aaae"
+            "sha256": "70e9c2ef05922211040b810f33dca2cbe4921e34c4cf24d21622b77de9a80fa8"
         }
     },
     "vscode": {
