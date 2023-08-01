@@ -11,6 +11,7 @@ Requirements:
 dnf group install "Development Tools"
 
 dnf install \
+\
 bzip2 \
 flex \
 fontconfig \
@@ -24,9 +25,9 @@ libtirpc \
 libuuid \
 libxcb \
 libXcursor \
-libXi \ 
-libXinerama \ 
-libxkbcommon \ 
+libXi \
+libXinerama \
+libxkbcommon \
 libxkbcommon-x11 \
 libXrandr \
 libXScrnSaver \
@@ -56,7 +57,6 @@ libXcursor-devel \
 libXi-devel \
 libXinerama-devel \
 libxkbcommon-devel \
-libxkbcommon-x11-devel \
 libXrandr-devel \
 libXxf86vm-devel \
 mesa-libGLU-devel \
@@ -64,16 +64,13 @@ openssl-devel \
 readline-devel \
 sqlite-devel \
 xcb-util-cursor-devel \
-xcb-util-devel \
-xcb-util-keysyms-devel \
-xcb-util-renderutil-devel \
-xcb-util-wm-devel \
-uuid-devel \
-libsqlite3-devel \
 libsq3-devel
 
-dnf install --enablerepo=powertools install libnsl2-devel
-dnf install --enablerepo=powertools install openssl3-devel
-dnf --enablerepo=powertools install libxkbcommon-x11-devel xcb-util-devel xcb-util-cursor-devel xcb-util-keysyms-devel xcb-util-renderutil-devel xcb-util-wm-devel freetype freetype-devel
+#libsqlite3-devel
+dnf install libsqlite3x-devel libsq3-devel
+
+dnf install --enablerepo=powertools libnsl2-devel
+dnf install --enablerepo=powertools openssl3-devel
+dnf install --enablerepo=powertools libxkbcommon-x11-devel xcb-util-devel xcb-util-cursor-devel xcb-util-keysyms-devel xcb-util-renderutil-devel xcb-util-wm-devel freetype freetype-devel
 
 ```
