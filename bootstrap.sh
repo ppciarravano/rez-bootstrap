@@ -2,23 +2,6 @@
 
 # Author: Pier Paolo Ciarravano (http://www.larmor.com)
 
-# requirements for bootstrap:
-# tar (GNU tar) 1.34 
-# python 3
-# gcc compiler for build gcc
-# flex
-# readline-devel
-#
-# libffi-dev
-# libgdbm-compat-dev/gdbm-devel
-# libbz2-dev
-# libsqlite3-dev/libsq3-devel
-# uuid-dev/uuid-devel
-# libreadline-dev
-# libgdbm-dev
-# libnsl2-devel
-#
-
 # exit when any command fails
 set -e
 
@@ -120,7 +103,7 @@ BOOTSTRAP_REZ_CONFIG_DIR=${BOOTSTRAP_PATH}/config
 if [ ! -f "${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py" ]
 then
     mkdir -p $BOOTSTRAP_REZ_CONFIG_DIR
-    cp -f ${BOOTSTRAP_PATH}/rez/lib/python3.7/site-packages/rez/rezconfig.py ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py
+    cp -f ${BOOTSTRAP_PATH}/rez/lib/python3.9/site-packages/rez/rezconfig.py ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py
     echo "installed rezconfig.py in ${BOOTSTRAP_REZ_CONFIG_DIR}/rezconfig.py"
 fi
 
