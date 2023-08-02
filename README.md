@@ -64,9 +64,7 @@ openssl-devel \
 readline-devel \
 sqlite-devel \
 xcb-util-cursor-devel \
-libsq3-devel \
-jbigkit-devel \
-libjpeg-turbo-devel
+libsq3-devel
 
 #libsqlite3-devel
 dnf install libsqlite3x-devel libsq3-devel
