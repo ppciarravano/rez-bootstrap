@@ -43,24 +43,35 @@ def download_single_source(component, version, data):
     source = definition["source"]
     destination = definition["destination"]
     hash_sha = definition["sha256"]
+    autodownload = definition["autodownload"] if "autodownload" in definition else True
 
     if "REZ_REPO_PAYLOAD_DIR" in os.environ:
         rez_repo_payload_dir = os.environ["REZ_REPO_PAYLOAD_DIR"]
         destination = f"{rez_repo_payload_dir}/{destination}"
 
+    downloaded = False
     print(f"Component: {component} {version}")
     if path.exists(destination):
         print(f"Component already downloaded: {component} {version}")
     else:
-        destination_dirpath = path.dirname(destination)
-        os.makedirs(destination_dirpath, exist_ok=True)
-        print(f"download: {component} {version}")
-        run_wget(source, destination)
-        print(f"downloaded: {component} {version}")
+        if autodownload:
+            destination_dirpath = path.dirname(destination)
+            os.makedirs(destination_dirpath, exist_ok=True)
+            print(f"download: {component} {version}")
+            run_wget(source, destination)
+            print(f"downloaded: {component} {version}")
+            downloaded = True
+        else:
+            raise Exception(f"autodownload is false, download and cache the component manually: {component} {version}")
 
     # verify hash
     hash_read = get_hash_sha(destination)
     if hash_sha != hash_read:
+        if downloaded:
+            print(f"Hash for component {component} {version} does not match: {hash_read}, delete the cached file: {destination}")
+            os.remove(destination)
+        else:
+            print(f"Hash for component {component} {version} does not match: {hash_read}, but the cache file is not deleted because already in cache here: {destination}")
         raise Exception(f"Hash for component {component} {version} does not match: {hash_read}")
     else:
         print(f"Hash OK for component {component} {version}")

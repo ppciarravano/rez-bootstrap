@@ -333,17 +333,17 @@
         "21.11": {
             "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v21.11.tar.gz",
             "destination": "usd/usd-21.11.tar.gz",
-            "sha256": "9af6322c5ee852455a341c3ce6668747d73f0d936c62f462dc726cd98facfbfb"
+            "sha256": "7adfde17b8ee294ee7002edb240555c61b5135fa215a7252b2a8e291bb9c4b44"
         },
         "22.08": {
             "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v22.08.tar.gz",
             "destination": "usd/usd-22.08.tar.gz",
-            "sha256": "7d22f58f54ec42e818838c28e86871c176b4a8697402e89934125346c3b0359f"
+            "sha256": "c90f04843151a23c1b0a184de06f6dae54fb4f379c44d17c28e25f11b43b6e70"
         },
         "22.11": {
             "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v22.11.tar.gz",
             "destination": "usd/usd-22.11.tar.gz",
-            "sha256": "70e9c2ef05922211040b810f33dca2cbe4921e34c4cf24d21622b77de9a80fa8"
+            "sha256": "f34826475bb9385a9e94e2fe272cc713f517b987cbea15ee6bbc6b21db19aaae"
         }
     },
     "vscode": {
@@ -391,39 +391,46 @@
         "18.5.696": {
             "source": "https://www.sidefx.com/download/download-houdini/79576/",
             "destination": "houdini/houdini-py3-18.5.696-linux_x86_64_gcc6.3.tar.gz",
-            "sha256": "d6b38f29653926792d192a17e7dcc930d8ced48fbcf4be4e7b13e875a3d6c0dc"
+            "sha256": "d6b38f29653926792d192a17e7dcc930d8ced48fbcf4be4e7b13e875a3d6c0dc",
+            "autodownload": false
         },
         "18.5.759": {
             "source": "https://www.sidefx.com/download/download-houdini/81832/",
             "destination": "houdini/houdini-py3-18.5.759-linux_x86_64_gcc6.3.tar.gz",
-            "sha256": "f2663a9bdb194b159bf78e3a51dae4f0321e925074e25537ee9c2c9c7e36ae47"
+            "sha256": "f2663a9bdb194b159bf78e3a51dae4f0321e925074e25537ee9c2c9c7e36ae47",
+            "autodownload": false
         },
         "19.5.368": {
             "source": "https://www.sidefx.com/download/download-houdini/93810/",
             "destination": "houdini/houdini-19.5.368-linux_x86_64_gcc9.3.tar.gz",
-            "sha256": "f49a45882acf4511c7baabbebcce8ce1c764d3616dc962268a767f94e0ccbec0"
+            "sha256": "f49a45882acf4511c7baabbebcce8ce1c764d3616dc962268a767f94e0ccbec0",
+            "autodownload": false
         },
         "19.5.403": {
             "source": "https://www.sidefx.com/download/download-houdini/95035/",
             "destination": "houdini/houdini-19.5.403-linux_x86_64_gcc9.3.tar.gz",
-            "sha256": "ffb9322c4a5e831b3f0f84958538530ffa8b243d5c92b32458483d7d7df68323"
+            "sha256": "ffb9322c4a5e831b3f0f84958538530ffa8b243d5c92b32458483d7d7df68323",
+            "autodownload": false
         },
         "19.5.534": {
             "source": "https://www.sidefx.com/download/download-houdini/99589/",
             "destination": "houdini/houdini-19.5.534-linux_x86_64_gcc9.3.tar.gz",
-            "sha256": "6f7e236b95acb953fee452c75389d6ea7293019240090147475048215dfaf1cb"
+            "sha256": "6f7e236b95acb953fee452c75389d6ea7293019240090147475048215dfaf1cb",
+            "autodownload": false
         },
         "19.5.605": {
             "source": "https://www.sidefx.com/download/download-houdini/101915/",
             "destination": "houdini/houdini-19.5.605-linux_x86_64_gcc9.3.tar.gz",
-            "sha256": "3e04f320e52e3ebab7a8d06b504fbcac66764576158e090c847474bec6d1e7f9"
+            "sha256": "3e04f320e52e3ebab7a8d06b504fbcac66764576158e090c847474bec6d1e7f9",
+            "autodownload": false
         }
     },
     "maya": {
         "2023.2": {
             "source": "https://www.autodesk.com",
             "destination": "maya/Autodesk_Maya_2023_2_Update_Linux_64bit.tgz",
-            "sha256": "6757fb58464a2b698f8ae12e24bba6107b6b8e430a268c903cd7a4b499a172ca"
+            "sha256": "6757fb58464a2b698f8ae12e24bba6107b6b8e430a268c903cd7a4b499a172ca",
+            "autodownload": false
         }
     },
     "openpype": {
@@ -431,11 +438,6 @@
             "source": "https://github.com/pypeclub/OpenPype/releases/download/3.14.3/openpype-3.14.3-centos.zip",
             "destination": "openpype/openpype-3.14.3.zip",
             "sha256": "63fb15c2cf692c802e206995a613c99a2c0bae48f8c06315795dfb93d59bf788"
-        },
-        "3.14.5": {
-            "source": "https://github.com/pypeclub/OpenPype/releases/download/3.14.5/openpype-3.14.5-centos.zip",
-            "destination": "openpype/openpype-3.14.5.zip",
-            "sha256": "586e3d10afa0233aa73a788bff108b99278aaf16615b782a2db63e5b4268678b"
         },
         "3.14.6": {
             "source": "https://github.com/pypeclub/OpenPype/releases/download/3.14.6/openpype-3.14.6-centos7.zip",
@@ -522,7 +524,8 @@
         "5.5.5-ofx": {
             "source": "https://www.neatvideo.com/download/products/nv5ofxs/5.5.5/NeatVideo5OFX.Studio.Intel64.tgz",
             "destination": "neatvideo/neatvideo-5.5.5-ofx.tgz",
-            "sha256": "80528118a3119826e8083f255de0eb1ec0f94a4e2accaa28ffba2b7d1254251f"
+            "sha256": "80528118a3119826e8083f255de0eb1ec0f94a4e2accaa28ffba2b7d1254251f",
+            "autodownload": false
         }
     },
     "nukesurvivaltoolkit": {
@@ -543,14 +546,16 @@
         "9.5.4": {
             "source": "https://borisfx.com/downloads/?product=mocha&host=ofx",
             "destination": "mochapro/MochaPro2022.5-OFX-9.5.4-15.gc02196055959.rhel.rpm",
-            "sha256": "488d9858309cb75e847cbb58b11b2a9d155f5e770bfacc4540120a88b6604902"
+            "sha256": "488d9858309cb75e847cbb58b11b2a9d155f5e770bfacc4540120a88b6604902",
+            "autodownload": false
         }
     },
     "rv": {
         "2022.3.1": {
             "source": "https://sg-software.ems.autodesk.com/deploy/rv/Current_Release/Linux-release.tar.gz",
             "destination": "rv/rv-2022.3.1.tar.gz",
-            "sha256": "7e0e44e1adee97c6016d32764999ee564be52a584d970d6e88d3b60dc14ea085"
+            "sha256": "7e0e44e1adee97c6016d32764999ee564be52a584d970d6e88d3b60dc14ea085",
+            "autodownload": false
         }
     },
     "redshift": {
@@ -571,24 +576,28 @@
         "1.0.0": {
             "source": "http://www.nukepedia.com",
             "destination": "nukepediaplugins/nukepediaplugins-1.0.0.tar.gz",
-            "sha256": "121c48ab16ac98bbdd7e5b448030c5c01eb8fc83f5920962e0f77999e041b988"
+            "sha256": "121c48ab16ac98bbdd7e5b448030c5c01eb8fc83f5920962e0f77999e041b988",
+            "autodownload": false
         }
     },
     "opticalflares": {
         "1.0.9": {
             "source": "https://www.videocopilot.net/account/downloads/",
             "destination": "opticalflares/opticalflares-1.0.9.zip",
-            "sha256": "c6716d15bcf81a4b5502943ac4c01e0638af2ef4764c86617cb7e61966b9213c"
+            "sha256": "c6716d15bcf81a4b5502943ac4c01e0638af2ef4764c86617cb7e61966b9213c",
+            "autodownload": false
         },
         "1.0.9-nodelocked": {
             "source": "https://www.videocopilot.net/account/downloads/",
             "destination": "opticalflares/OpticalFlares_Nuke_13.2_Node-Locked_1.0.9.zip",
-            "sha256": "470743040d0f76a7effa1db6ec8365ee980673336779424045384ea5f28cca44"
+            "sha256": "470743040d0f76a7effa1db6ec8365ee980673336779424045384ea5f28cca44",
+            "autodownload": false
         },
         "1.0.93-nuke14": {
             "source": "https://www.videocopilot.net/account/downloads/",
             "destination": "opticalflares/OpticalFlares_Nuke_14.0_Floating_Linux_1.0.93.zip",
-            "sha256": "0b06f7f0bfe9bbb1e1b3f0215dea105be0d2b93b8dc5211037a3e35fb7eb8466"
+            "sha256": "0b06f7f0bfe9bbb1e1b3f0215dea105be0d2b93b8dc5211037a3e35fb7eb8466",
+            "autodownload": false
         }
     },
     "blender": {
@@ -602,52 +611,60 @@
         "8.1.0": {
             "source": "https://www.adobe.com",
             "destination": "substance3dpainter/Adobe_Substance_3D_Painter-8.1.0-1699-linux-x86_64-standard.rpm",
-            "sha256": "821aac896d49903e869748604c2346ef6bebabdadaaf20da3eaaf2e97f27ecab"
+            "sha256": "821aac896d49903e869748604c2346ef6bebabdadaaf20da3eaaf2e97f27ecab",
+            "autodownload": false
         }
     },
     "mari": {
         "5.0.2": {
             "source": "https://www.foundry.com",
             "destination": "mari/Mari5.0v2-linux-x86-release-64.run",
-            "sha256": "9c94f8c2bfabba919ae286350769a92a411a024dc1c9e53ada1769733a128c95"
+            "sha256": "9c94f8c2bfabba919ae286350769a92a411a024dc1c9e53ada1769733a128c95",
+            "autodownload": false
         }
     },
     "davinciresolve": {
         "17.4.6": {
             "source": "https://www.blackmagicdesign.com",
             "destination": "davinciresolve/DaVinci_Resolve_17.4.6_Linux.zip",
-            "sha256": "1b40cd2d0fc9590f4a2b732d70fb232c96a5999ce49638b739e5d7ed308b9b6e"
+            "sha256": "1b40cd2d0fc9590f4a2b732d70fb232c96a5999ce49638b739e5d7ed308b9b6e",
+            "autodownload": false
         }
     },
     "speedtreecinema": {
         "9.1.1": {
             "source": "https://store.speedtree.com",
             "destination": "speedtreecinema/SpeedTree_Cinema_v9.1.1_Linux.tar.gz",
-            "sha256": "2f2725cf1ed6f0ceec82c89af1a9519e9b67d624c31e768ab2c58840fd2d5a05"
+            "sha256": "2f2725cf1ed6f0ceec82c89af1a9519e9b67d624c31e768ab2c58840fd2d5a05",
+            "autodownload": false
         },
         "8.4.2": {
             "source": "https://store.speedtree.com/?download_file=302633",
             "destination": "speedtreecinema/SpeedTree_Cinema_v8.4.2_Linux.tar.gz",
-            "sha256": "4b15b2a1f1ad0fb82eb2aa1ac2ecf3449ee49a8530a1640a48c714b63ff8c8a1"
+            "sha256": "4b15b2a1f1ad0fb82eb2aa1ac2ecf3449ee49a8530a1640a48c714b63ff8c8a1",
+            "autodownload": false
         }
     },
     "ptgui": {
         "12.10": {
             "source": "https://ptgui.com",
             "destination": "ptgui/PTGui_Pro_12.10.tar.gz",
-            "sha256": "d9bd24f1d9ac7b97dce483c7b4bb4340a70284a316426083515cad82284472a2"
+            "sha256": "d9bd24f1d9ac7b97dce483c7b4bb4340a70284a316426083515cad82284472a2",
+            "autodownload": false
         },
         "12.20": {
             "source": "https://ptgui.com",
             "destination": "ptgui/PTGui_Pro_12.20.tar.gz",
-            "sha256": "0e4bf221bf414f52ec270e2263bfc36d9c52c90f36e99e7a77ea4299583abd57"
+            "sha256": "0e4bf221bf414f52ec270e2263bfc36d9c52c90f36e99e7a77ea4299583abd57",
+            "autodownload": false
         }
     },
     "3dequalizer": {
         "7.0": {
             "source": "https://www.3dequalizer.com",
             "destination": "3dequalizer/3DE4_linux64_r7.0.tar.gz",
-            "sha256": "4bc88641ed20dccffca00cf8e56f2c38a4aa502305f039f173c19168f91f9232"
+            "sha256": "4bc88641ed20dccffca00cf8e56f2c38a4aa502305f039f173c19168f91f9232",
+            "autodownload": false
         }
     },
     "daselement": {
@@ -738,7 +755,7 @@
         "1.12.0": {
             "source": "https://chromium.googlesource.com/webm/libvpx.git/+archive/03265cd42b3783532de72f2ded5436652e6f5ce3.tar.gz",
             "destination": "libvpx/libvpx-1.12.0.tar.gz",
-            "sha256": "e675a62395dffaa9962aa0ecf94aa0006bf5eb60ae8f22a9a57c74f049eab857"
+            "sha256": "4eaf1ddee408868d536d76ada61b6b0bd06e6092d378494aa19adc3702764826"
         }
     },
     "ffmpeg": {
@@ -755,16 +772,17 @@
     },
     "xstudio": {
         "2023.02.01": {
-            "source": "https://github.com/AcademySoftwareFoundation/xstudio/archive/refs/heads/main.zip",
+            "source": "https://github.com/AcademySoftwareFoundation/xstudio/archive/356714fa59d22b3a02d223a4681f7563ebac503a.zip",
             "destination": "xstudio/xstudio-2023.02.01.zip",
-            "sha256": "1d3e1c42d655baf0f1e0789c1008bb4556d9d849fa08cd8d9ea2bbfb5482df6c"
+            "sha256": "7df82432015d9b7f05ba7f2cbbb176db5ac56c6e0cc818106e492ca35f3d39ab"
         }
     },
     "rizomuv": {
         "2022.1.57": {
-            "source": "https://www.rizom-lab.com/download_setup.php?file=RizomUV.2022.1.57.gfabcfb8.master.2022-09-29.AppImage&account=licensing@misc-studios.com",
+            "source": "https://www.rizom-lab.com/download_setup.php",
             "destination": "rizomuv/RizomUV.2022.1.57.gfabcfb8.master.2022-09-29.AppImage",
-            "sha256": "df7f04cbfa4a0fe46ae64b3272185309194bd9cc48abeed7de6605c1c3982524"
+            "sha256": "df7f04cbfa4a0fe46ae64b3272185309194bd9cc48abeed7de6605c1c3982524",
+            "autodownload": false
         }
     },
     "krita": {
@@ -778,7 +796,8 @@
         "5.9": {
             "source": "https://rawtherapee.com/shared/builds/linux/RawTherapee_5.9.AppImage",
             "destination": "rawtherapee/RawTherapee_5.9.AppImage",
-            "sha256": "463f838981a1f11dff37160b1dc5c67a13d27066b869d8dea301db416871eb67"
+            "sha256": "463f838981a1f11dff37160b1dc5c67a13d27066b869d8dea301db416871eb67",
+            "autodownload": false
         }
     },
     "libreoffice": {
@@ -806,14 +825,16 @@
         "2023.1.0": {
             "source": "https://www.fosshub.com/Meshroom.html?dwl=Meshroom-2023.1.0-linux.tar.gz",
             "destination": "meshroom/Meshroom-2023.1.0-linux.tar.gz",
-            "sha256": "aa1556f342690a017055e3836df3e020188087298d4e4272b85f809fd14cc437"
+            "sha256": "aa1556f342690a017055e3836df3e020188087298d4e4272b85f809fd14cc437",
+            "autodownload": false
         }
     },
     "pureref": {
         "1.11.1": {
             "source": "https://www.pureref.com/download.php",
             "destination": "pureref/PureRef-1.11.1_x64.Appimage",
-            "sha256": "75afdd1f4aee239eb6272969bc4f5fdb3314489e7af93ed8d3194fff1af7ca16"
+            "sha256": "75afdd1f4aee239eb6272969bc4f5fdb3314489e7af93ed8d3194fff1af7ca16",
+            "autodownload": false
         }
     },
     "oidn": {
@@ -870,7 +891,8 @@
         "4.2.8": {
             "source": "https://cospective.com/wp-content/uploads/2022/08/cineSync_LINUX64_4.2.8.tar.gz",
             "destination": "cinesync/cineSync_LINUX64_4.2.8.tar.gz",
-            "sha256": "cca084d539b8366e608eba7f4c170f46e3029f4576f09b32a26b31402c5e380c"
+            "sha256": "cca084d539b8366e608eba7f4c170f46e3029f4576f09b32a26b31402c5e380c",
+            "autodownload": false
         }
     },
     "keentools": {
