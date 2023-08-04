@@ -72,6 +72,8 @@ def download_single_source(component, version, data):
             os.remove(destination)
         else:
             print(f"Hash for component {component} {version} does not match: {hash_read}, but the cache file is not deleted because already in cache here: {destination}")
+            # uncomment the following line to fix wrong cached files
+            #os.remove(destination)
         raise Exception(f"Hash for component {component} {version} does not match: {hash_read}")
     else:
         print(f"Hash OK for component {component} {version}")
