@@ -755,7 +755,7 @@
         "1.12.0": {
             "source": "https://chromium.googlesource.com/webm/libvpx.git/+archive/03265cd42b3783532de72f2ded5436652e6f5ce3.tar.gz",
             "destination": "libvpx/libvpx-1.12.0.tar.gz",
-            "sha256": "4eaf1ddee408868d536d76ada61b6b0bd06e6092d378494aa19adc3702764826"
+            "sha256": "8c2b212b90b4c3cdd07492b268319e4166f92c695b66f6f9d785295f964146ea"
         }
     },
     "ffmpeg": {
