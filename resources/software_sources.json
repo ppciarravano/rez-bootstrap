@@ -883,10 +883,10 @@
         }
     },
     "pbrt": {
-        "v4-12052023": {
-            "source": "https://github.com/mmp/pbrt-v4",
-            "destination": "pbrt/pbrt-v4-12052023.tgz",
-            "sha256": "d9dda097b235b7da2fde289578c824f943290d4e1982920186653c068f4d3668"
+        "v4-04072023": {
+            "source": "https://github.com/mmp/pbrt-v4/archive/ce95acb9b94fdd2f4918bca643310ccfd481b1fa.zip",
+            "destination": "pbrt/pbrt-v4-04072023.tgz",
+            "sha256": "d2855731425dbc06bbdf68f6a68a1635b36c5879bcaa1d9893f42c379e40141d"
         }
     },
     "cinesync": {
