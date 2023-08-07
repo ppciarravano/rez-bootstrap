@@ -801,10 +801,10 @@
         }
     },
     "libreoffice": {
-        "7.3.7.2": {
+        "7.4.7.2": {
             "source": "https://appimages.libreitalia.org/LibreOffice-still.full-x86_64.AppImage",
-            "destination": "libreoffice/LibreOffice-still-7.3.7.2.full-x86_64.AppImage",
-            "sha256": "485155fc32a343e2d6e70bbc1f2097facf5b13ac3b9c5ed870eb7cc8e5732215"
+            "destination": "libreoffice/LibreOffice-still-7.4.7.2.full-x86_64.AppImage",
+            "sha256": "bfef6fe52dc0433da95d765fa161c11fc5efd7558bd62691a6628f7d84fa852c"
         }
     },
     "mayasecuritytools": {
