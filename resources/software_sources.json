@@ -889,9 +889,11 @@
     },
     "pbrt": {
         "v4-20230804": {
-            "source": "https://github.com/mmp/pbrt-v4/archive/ce95acb9b94fdd2f4918bca643310ccfd481b1fa.zip",
+            "source": "https://github.com/mmp/pbrt-v4",
             "destination": "pbrt/pbrt-v4-20230804.tgz",
-            "sha256": "d2855731425dbc06bbdf68f6a68a1635b36c5879bcaa1d9893f42c379e40141d"
+            "sha256": "ce83ead102966e8914a3c7ae0c6fab8622a2d33d9d909c8e18fa4538bbb73958",
+            "autodownload": false,
+            "comment": "build the tgz from: git clone --recursive https://github.com/mmp/pbrt-v4.git"
         }
     },
     "cinesync": {
