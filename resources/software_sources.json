@@ -888,9 +888,9 @@
         }
     },
     "pbrt": {
-        "v4-20230801": {
+        "v4-20230804": {
             "source": "https://github.com/mmp/pbrt-v4/archive/ce95acb9b94fdd2f4918bca643310ccfd481b1fa.zip",
-            "destination": "pbrt/pbrt-v4-20230801.tgz",
+            "destination": "pbrt/pbrt-v4-20230804.tgz",
             "sha256": "d2855731425dbc06bbdf68f6a68a1635b36c5879bcaa1d9893f42c379e40141d"
         }
     },
