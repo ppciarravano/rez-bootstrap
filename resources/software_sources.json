@@ -775,6 +775,11 @@
             "source": "https://github.com/AcademySoftwareFoundation/xstudio/archive/356714fa59d22b3a02d223a4681f7563ebac503a.zip",
             "destination": "xstudio/xstudio-2023.02.01.zip",
             "sha256": "7df82432015d9b7f05ba7f2cbbb176db5ac56c6e0cc818106e492ca35f3d39ab"
+        },
+        "2023.08.07": {
+            "source": "https://github.com/AcademySoftwareFoundation/xstudio/archive/b83ddbe3d659045222866d1c73b7b7d6276b0d40.zip",
+            "destination": "xstudio/xstudio-2023.08.07.zip",
+            "sha256": "f18b2cbf7d8b149ec72071d38124bdabe7e5b7eeabd5bb7c11d4011e57e139d2"
         }
     },
     "rizomuv": {
@@ -883,9 +888,9 @@
         }
     },
     "pbrt": {
-        "v4-04072023": {
+        "v4-20230801": {
             "source": "https://github.com/mmp/pbrt-v4/archive/ce95acb9b94fdd2f4918bca643310ccfd481b1fa.zip",
-            "destination": "pbrt/pbrt-v4-04072023.tgz",
+            "destination": "pbrt/pbrt-v4-20230801.tgz",
             "sha256": "d2855731425dbc06bbdf68f6a68a1635b36c5879bcaa1d9893f42c379e40141d"
         }
     },
