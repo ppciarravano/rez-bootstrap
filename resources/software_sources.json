@@ -811,7 +811,8 @@
         "1.0.3": {
             "source": "https://apps.autodesk.com/MAYA/en/Detail/Index?id=8637238041954239715&os=Win64&appLang=en",
             "destination": "mayasecuritytools/MayaScanner-linux.sh",
-            "sha256": "b09adb5e0c032b684cbe38928f512de752a76b051b7b405962b57e493af3b114"
+            "sha256": "b09adb5e0c032b684cbe38928f512de752a76b051b7b405962b57e493af3b114",
+            "autodownload": false
         }
     },
     "arnold": {
