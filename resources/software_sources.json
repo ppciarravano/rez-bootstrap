@@ -372,7 +372,7 @@
         "13.2.8": {
             "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/13.2v8/Nuke13.2v8-linux-x86_64.tgz",
             "destination": "nuke/Nuke13.2v8-linux-x86_64.tgz",
-            "sha256": "efd75e78072fdcfd8cd1a0eadfec1dba4d63e5af3046f43b66bfca228b0ee4f4"
+            "sha256": "4b2fc252c022cfbb8e0adb666a7944e6e0c18f7cc20ed2b24b33b78502a9aeef"
         },        
         "14.0.2": {
             "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/14.0v2/Nuke14.0v2-linux-x86_64.tgz",
@@ -387,7 +387,7 @@
         "14.0.5": {
             "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/14.0v5/Nuke14.0v5-linux-x86_64.tgz",
             "destination": "nuke/Nuke14.0v5-linux-x86_64.tgz",
-            "sha256": "6a3eb1c03a6d345530bc54d024a037c3890625edb047c09bf3f8fd1d3a79c1d9"
+            "sha256": "bbe0726dcd34cc25e3eb8df23c7517afd49eff957ec401fb7cd2e6b56363ec63"
         }
     },
     "modo": {
