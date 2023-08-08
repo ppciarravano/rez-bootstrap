@@ -453,6 +453,18 @@
             "destination": "maya/Autodesk_Maya_2023_2_Update_Linux_64bit.tgz",
             "sha256": "6757fb58464a2b698f8ae12e24bba6107b6b8e430a268c903cd7a4b499a172ca",
             "autodownload": false
+        },
+        "2023.3": {
+            "source": "https://www.autodesk.com",
+            "destination": "maya/Autodesk_Maya_2023_3_Update_Linux_64bit.tgz",
+            "sha256": "beea6043496751ba996fff6139662afcdc9cf7361fd73087e74d337a9284abaa",
+            "autodownload": false
+        },
+        "2024.1": {
+            "source": "https://www.autodesk.com",
+            "destination": "maya/Autodesk_Maya_2024_1_Update_Linux_64bit.tgz",
+            "sha256": "998dd153bf5e719fad327be5778187c63accaf623d5e6beb2156fe76e7344768",
+            "autodownload": false
         }
     },
     "openpype": {
