@@ -434,6 +434,12 @@
             "sha256": "3e04f320e52e3ebab7a8d06b504fbcac66764576158e090c847474bec6d1e7f9",
             "autodownload": false
         },
+        "19.5.640": {
+            "source": "https://www.sidefx.com/download/download-houdini/102958/",
+            "destination": "houdini/houdini-19.5.640-linux_x86_64_gcc9.3.tar.gz",
+            "sha256": "37ffda14340a66dab9243885a4a4b138a6d61a1008732f664a053c37790146a4",
+            "autodownload": false
+        },
         "19.5.682": {
             "source": "https://www.sidefx.com/download/download-houdini/104274/",
             "destination": "houdini/houdini-19.5.682-linux_x86_64_gcc9.3.tar.gz",
@@ -841,6 +847,21 @@
             "source": "https://wdown.solidangle.com/htoa/htoa-6.1.4.0_rf6de6a9_houdini-19.5.403_linux.run",
             "destination": "arnold/htoa-6.1.4.0_rf6de6a9_houdini-19.5.403_linux.run",
             "sha256": "62df1fdd2a3c9780b59a68bdd4e9b1b1dc3a63ac55e7dcbbd853126d9d878cea"
+        },
+        "6.2.2.1-houdini-19.5.640": {
+            "source": "https://wdown.solidangle.com/htoa/htoa-6.2.2.1_r0a87540_houdini-19.5.640_linux.run",
+            "destination": "arnold/htoa-6.2.2.1_r0a87540_houdini-19.5.640_linux.run",
+            "sha256": "8888272c9f89191c060074f136891a70c5392c175cb1b3b35d87d9714214afcc"
+        },
+        "5.3.2.1-maya-2023": {
+            "source": "https://wdown.solidangle.com/mtoa/MtoA-5.3.2.1-linux-2023.run",
+            "destination": "arnold/MtoA-5.3.2.1-linux-2023.run",
+            "sha256": "50507fd108d20ad1e62d5cf9aed57359c5f5c1bd5ed4b67779f6fdf519779dd1"
+        },
+        "5.3.2.1-maya-2024": {
+            "source": "https://wdown.solidangle.com/mtoa/MtoA-5.3.2.1-linux-2024.run",
+            "destination": "arnold/MtoA-5.3.2.1-linux-2024.run",
+            "sha256": "5aaa92d8b5fea2249a4e6c63b02c4d6d3e9c0a17b698597a252d119e6aee2afb"
         }
     },
     "meshroom": {
