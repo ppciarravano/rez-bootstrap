@@ -369,6 +369,11 @@
             "destination": "nuke/Nuke13.2v4-linux-x86_64.tgz",
             "sha256": "efd75e78072fdcfd8cd1a0eadfec1dba4d63e5af3046f43b66bfca228b0ee4f4"
         },
+        "13.2.8": {
+            "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/13.2v8/Nuke13.2v8-linux-x86_64.tgz",
+            "destination": "nuke/Nuke13.2v8-linux-x86_64.tgz",
+            "sha256": "efd75e78072fdcfd8cd1a0eadfec1dba4d63e5af3046f43b66bfca228b0ee4f4"
+        },        
         "14.0.2": {
             "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/14.0v2/Nuke14.0v2-linux-x86_64.tgz",
             "destination": "nuke/Nuke14.0v2-linux-x86_64.tgz",
@@ -377,6 +382,11 @@
         "14.0.4": {
             "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/14.0v4/Nuke14.0v4-linux-x86_64.tgz",
             "destination": "nuke/Nuke14.0v4-linux-x86_64.tgz",
+            "sha256": "6a3eb1c03a6d345530bc54d024a037c3890625edb047c09bf3f8fd1d3a79c1d9"
+        },
+        "14.0.5": {
+            "source": "https://thefoundry.s3.amazonaws.com/products/nuke/releases/14.0v5/Nuke14.0v5-linux-x86_64.tgz",
+            "destination": "nuke/Nuke14.0v5-linux-x86_64.tgz",
             "sha256": "6a3eb1c03a6d345530bc54d024a037c3890625edb047c09bf3f8fd1d3a79c1d9"
         }
     },
