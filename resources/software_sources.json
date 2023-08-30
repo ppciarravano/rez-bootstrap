@@ -893,16 +893,21 @@
         }
     },
     "oidn": {
-        "1.4.3-bin": {
+        "1.4.3-src": {
+            "source": "https://github.com/OpenImageDenoise/oidn/releases/download/v1.4.3/oidn-1.4.3.src.tar.gz",
+            "destination": "oidn/oidn-1.4.3.src.tar.gz",
+            "sha256": "3276e252297ebad67a999298d8f0c30cfb221e166b166ae5c955d88b94ad062a"
+        },
+        "1.4.3": {
             "source": "https://github.com/OpenImageDenoise/oidn/releases/download/v1.4.3/oidn-1.4.3.x86_64.linux.tar.gz",
             "destination": "oidn/oidn-1.4.3.x86_64.linux.tar.gz",
             "sha256": "f6ec3b996c69386bbc69f61bc0e6fd17765530e6aa788cfc7a5d3e739548cd58"
         },
-        "1.4.3": {
-            "source": "https://github.com/OpenImageDenoise/oidn/releases/download/v1.4.3/oidn-1.4.3.src.tar.gz",
-            "destination": "oidn/oidn-1.4.3.src.tar.gz",
-            "sha256": "3276e252297ebad67a999298d8f0c30cfb221e166b166ae5c955d88b94ad062a"
-        }
+        "2.0.1": {
+            "source": "https://github.com/OpenImageDenoise/oidn/releases/download/v2.0.1/oidn-2.0.1.x86_64.linux.tar.gz",
+            "destination": "oidn/oidn-2.0.1.x86_64.linux.tar.gz",
+            "sha256": "63885460420263cae0cf67682f09b8c3dd421bf0f82a9209b2af40c1099a5922"
+        },
     },
     "gaffer": {
         "1.2.4.0": {
