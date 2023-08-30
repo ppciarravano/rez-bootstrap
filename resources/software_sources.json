@@ -907,7 +907,7 @@
             "source": "https://github.com/OpenImageDenoise/oidn/releases/download/v2.0.1/oidn-2.0.1.x86_64.linux.tar.gz",
             "destination": "oidn/oidn-2.0.1.x86_64.linux.tar.gz",
             "sha256": "63885460420263cae0cf67682f09b8c3dd421bf0f82a9209b2af40c1099a5922"
-        },
+        }
     },
     "gaffer": {
         "1.2.4.0": {
