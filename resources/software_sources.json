@@ -970,7 +970,7 @@
             "sha256": "8023923dcb2c2f9a2eee4ccfc322ed37ebb0aff760a0b7f74efca08d162020d8"
         }
     },
-    "opentimelineio": {
+    "otio": {
         "0.15": {
             "source": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/archive/refs/tags/v0.15.tar.gz",
             "destination": "opentimelineio/opentimelineio-0.15.tar.gz",
