@@ -969,5 +969,12 @@
             "destination": "keentools/keentools-2023.1.0-for-nuke-14.0-linux.zip",
             "sha256": "8023923dcb2c2f9a2eee4ccfc322ed37ebb0aff760a0b7f74efca08d162020d8"
         }
+    },
+    "opentimelineio": {
+        "0.15": {
+            "source": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/archive/refs/tags/v0.15.tar.gz",
+            "destination": "opentimelineio/opentimelineio-0.15.tar.gz",
+            "sha256": "66814703f088749578ac69902526468b4aec185bdbbced8e1a1bbb4609144961"
+        }
     }
 }
