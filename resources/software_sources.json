@@ -981,5 +981,17 @@
             "destination": "otio/otio-cxx17.2023.06.08.zip",
             "sha256": "4aa13e15654f08be4d076c58ec862dcedc37dec7d085cf9fddf45ffedb315763"
         }
+    },
+    "mayadevkit": {
+        "2023.2": {
+            "source": "https://autodesk-adn-transfer.s3-us-west-2.amazonaws.com/ADN+Extranet/M%26E/Maya/devkit+2023/Autodesk_Maya_2023_2_Update_DEVKIT_Linux.tgz",
+            "destination": "mayadevkit/Autodesk_Maya_2023_2_Update_DEVKIT_Linux.tgz",
+            "sha256": "39550983c82f95c1a04f86cc5e39a97d401dfdcdcd2a78ac25b0a47dccef06a7"
+        },
+        "2023.3": {
+            "source": "https://autodesk-adn-transfer.s3-us-west-2.amazonaws.com/ADN+Extranet/M%26E/Maya/devkit+2023/Autodesk_Maya_2023_3_Update_DEVKIT_Linux.tgz",
+            "destination": "mayadevkit/Autodesk_Maya_2023_3_Update_DEVKIT_Linux.tgz",
+            "sha256": "443c104c31a68399f4903417161e35f7bcca0ad5ecfed2efc89b1f5b34392c88"
+        }
     }
 }
