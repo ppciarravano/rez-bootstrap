@@ -975,6 +975,11 @@
             "source": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/archive/refs/tags/v0.15.tar.gz",
             "destination": "otio/otio-0.15.tar.gz",
             "sha256": "66814703f088749578ac69902526468b4aec185bdbbced8e1a1bbb4609144961"
+        },
+        "cxx17.2023.06.08": {
+            "source": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/archive/4c85082cebb2777ca616518b8f7778960bff15db.zip",
+            "destination": "otio/otio-cxx17.2023.06.08.tar.gz",
+            "sha256": "4aa13e15654f08be4d076c58ec862dcedc37dec7d085cf9fddf45ffedb315763"
         }
     }
 }
