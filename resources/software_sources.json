@@ -978,7 +978,7 @@
         },
         "cxx17.2023.06.08": {
             "source": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/archive/4c85082cebb2777ca616518b8f7778960bff15db.zip",
-            "destination": "otio/otio-cxx17.2023.06.08.tar.gz",
+            "destination": "otio/otio-cxx17.2023.06.08.zip",
             "sha256": "4aa13e15654f08be4d076c58ec862dcedc37dec7d085cf9fddf45ffedb315763"
         }
     }
