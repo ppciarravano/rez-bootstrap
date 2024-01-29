@@ -344,6 +344,11 @@
             "source": "https://github.com/PixarAnimationStudios/USD/archive/refs/tags/v22.11.tar.gz",
             "destination": "usd/usd-22.11.tar.gz",
             "sha256": "70e9c2ef05922211040b810f33dca2cbe4921e34c4cf24d21622b77de9a80fa8"
+        },
+        "23.08": {
+            "source": "https://github.com/PixarAnimationStudios/OpenUSD/archive/refs/tags/v23.08.tar.gz",
+            "destination": "usd/usd-23.08.tar.gz",
+            "sha256": "6b7f00588c451e09ab32838993487343665223c2ac533d5ad102bbc7394713b7"
         }
     },
     "vscode": {
@@ -445,7 +450,25 @@
             "destination": "houdini/houdini-19.5.682-linux_x86_64_gcc9.3.tar.gz",
             "sha256": "87069e9f780a630ffc4b03598c001ab59e4790aafc160f8705252f98eecefa36",
             "autodownload": false
-        }
+        },
+        "19.5.752": {
+            "source": "https://www.sidefx.com/download/download-houdini/106790/",
+            "destination": "houdini/houdini-19.5.752-linux_x86_64_gcc9.3.tar.gz",
+            "sha256": "32f4c426c116800c588bf7896e5a5950dd74cf0d9dea79d9ad359e5d76bc01f2",
+            "autodownload": false
+        },
+        "20.0.506": {
+            "source": "https://www.sidefx.com/download/download-houdini/107930/",
+            "destination": "houdini/houdini-py39-20.0.506-linux_x86_64_gcc9.3.tar.gz",
+            "sha256": "068b5b14a0466b0541bafe4230d2dc854f23f19237d160cd209d57584d4e1406",
+            "autodownload": false
+        },
+        "20.0.547": {
+            "source": "https://www.sidefx.com/download/download-houdini/109527/",
+            "destination": "houdini/houdini-py39-20.0.547-linux_x86_64_gcc9.3.tar.gz",
+            "sha256": "325190b5d301a13cbeb0169927fb72f6aa994aae69187690a20114e27416cb44",
+            "autodownload": false
+        }      
     },
     "maya": {
         "2023.2": {
@@ -590,6 +613,12 @@
             "destination": "rv/rv-2022.3.1.tar.gz",
             "sha256": "7e0e44e1adee97c6016d32764999ee564be52a584d970d6e88d3b60dc14ea085",
             "autodownload": false
+        },
+        "2022.3.3": {
+            "source": "https://sg-software.ems.autodesk.com/deploy/rv/Previous_Release/Linux-release.tar.gz",
+            "destination": "rv/rv-centos7-x86-64-2022.3.3.tar.gz",
+            "sha256": "05dc39a171c3f3d82bebecf3edced264bf3a0e7bf605ca6c49f2586bc1072398",
+            "autodownload": false
         }
     },
     "redshift": {
@@ -651,17 +680,35 @@
     },
     "mari": {
         "5.0.2": {
-            "source": "https://www.foundry.com",
+            "source": "https://thefoundry.s3.amazonaws.com/products/mari/releases/5.0v2/Mari5.0v2-linux-x86-release-64.run",
             "destination": "mari/Mari5.0v2-linux-x86-release-64.run",
             "sha256": "9c94f8c2bfabba919ae286350769a92a411a024dc1c9e53ada1769733a128c95",
             "autodownload": false
-        }
+        },
+        "5.0.4": {
+            "source": "https://www.foundry.com/products/download_product?file=Mari5.0v4-linux-x86-release-64.run",
+            "destination": "mari/Mari5.0v4-linux-x86-release-64.run",
+            "sha256": "70431922b0ddcb308141f9f8d749e5ae00122a56388738858f13edddfcb476bc",
+            "autodownload": false
+        },
+        "6.0.2": {
+            "source": "https://www.foundry.com/products/download_product?file=Mari6.0v2-linux-x86-release-64.run",
+            "destination": "mari/Mari6.0v2-linux-x86-release-64.run",
+            "sha256": "3add1f21217a56fe3009438af9c7223b52f14234eb3389e2b6b204bcc7ddc3e6",
+            "autodownload": false
+        }        
     },
     "davinciresolve": {
         "17.4.6": {
             "source": "https://www.blackmagicdesign.com",
             "destination": "davinciresolve/DaVinci_Resolve_17.4.6_Linux.zip",
             "sha256": "1b40cd2d0fc9590f4a2b732d70fb232c96a5999ce49638b739e5d7ed308b9b6e",
+            "autodownload": false
+        },
+        "18.6.4": {
+            "source": "https://www.blackmagicdesign.com",
+            "destination": "davinciresolve/DaVinci_Resolve_18.6.4_Linux.zip",
+            "sha256": "4a4aa6c950b37120edaf9e8f21f36737a3d655531da977d55b65b4d0a2d91a5f",
             "autodownload": false
         }
     },
@@ -698,6 +745,12 @@
             "source": "https://www.3dequalizer.com",
             "destination": "3dequalizer/3DE4_linux64_r7.0.tar.gz",
             "sha256": "4bc88641ed20dccffca00cf8e56f2c38a4aa502305f039f173c19168f91f9232",
+            "autodownload": false
+        },
+        "7.1v2": {
+            "source": "https://www.3dequalizer.com",
+            "destination": "3dequalizer/3DE4_linux64_r7.1v2.tar.gz",
+            "sha256": "e73de9f01c8b007bc324dd8151f3d99fdc0cf14ec949b67deebb8c5b86a7379c",
             "autodownload": false
         }
     },
@@ -816,6 +869,18 @@
             "sha256": "f18b2cbf7d8b149ec72071d38124bdabe7e5b7eeabd5bb7c11d4011e57e139d2"
         }
     },
+    "embree": {
+        "4.3.0": {
+            "source": "https://github.com/embree/embree/archive/refs/tags/v4.3.0.tar.gz",
+            "destination": "embree/embree-4.3.0.tar.gz",
+            "sha256": "baf0a57a45837fc055ba828a139467bce0bc0c6a9a5f2dccb05163d012c12308"
+        },
+        "3.13.5": {
+            "source": "https://github.com/embree/embree/archive/refs/tags/v3.13.5.tar.gz",
+            "destination": "embree/embree-3.13.5.tar.gz",
+            "sha256": "b8c22d275d9128741265537c559d0ea73074adbf2f2b66b0a766ca52c52d665b"
+        }
+    },
     "rizomuv": {
         "2022.1.57": {
             "source": "https://www.rizom-lab.com/download_setup.php",
@@ -865,10 +930,31 @@
             "destination": "arnold/htoa-6.2.2.1_r0a87540_houdini-19.5.640_linux.run",
             "sha256": "8888272c9f89191c060074f136891a70c5392c175cb1b3b35d87d9714214afcc"
         },
+        "6.2.4.0-houdini-19.5.752": {
+            "source": "https://wdown.solidangle.com/htoa/htoa-6.2.4.0_r6fafaf5_houdini-19.5.752_linux.run",
+            "destination": "arnold/htoa-6.2.4.0_r6fafaf5_houdini-19.5.752_linux.run",
+            "sha256": "8371084aa0f8f375978910e9f80ecec98d67a29e2105c5f146bb78a39f7841ba"
+        },
+        "6.2.4.3-houdini-20.0.506": {
+            "source": "https://wdown.solidangle.com/htoa/htoa-6.2.4.3_rf7fb3a9_houdini-20.0.506.py39_linux.run",
+            "destination": "arnold/htoa-6.2.4.3_rf7fb3a9_houdini-20.0.506.py39_linux.run",
+            "sha256": "ac3694268577f04a260bb05d0211e78887779b7f968243e7fec618033959ebf4"
+        },
+        "6.2.5.1-houdini-20.0.547": {
+            "source": "https://manage.autodesk.com/products/ARNOL",
+            "destination": "arnold/htoa-6.2.5.1_r539f2c5_houdini-20.0.547.py39_gcc9.3_linux.run",
+            "sha256": "14f50e00e43d4d4dee38624273ea4e2e8d62c8ee5efce7d6172c21edffab6fb2",
+            "autodownload": false
+        },
         "5.3.2.1-maya-2023": {
             "source": "https://wdown.solidangle.com/mtoa/MtoA-5.3.2.1-linux-2023.run",
             "destination": "arnold/MtoA-5.3.2.1-linux-2023.run",
             "sha256": "50507fd108d20ad1e62d5cf9aed57359c5f5c1bd5ed4b67779f6fdf519779dd1"
+        },
+        "5.3.5-maya-2023": {
+            "source": "https://wdown.solidangle.com/mtoa/MtoA-5.3.5-linux-2023.run",
+            "destination": "arnold/MtoA-5.3.5-linux-2023.run",
+            "sha256": "17f2abad911c9ee608ecef9d0805fbfb9f04cd8cace409cdb2619b552b8c5ce0"
         },
         "5.3.2.1-maya-2024": {
             "source": "https://wdown.solidangle.com/mtoa/MtoA-5.3.2.1-linux-2024.run",
@@ -881,6 +967,12 @@
             "source": "https://www.fosshub.com/Meshroom.html?dwl=Meshroom-2023.1.0-linux.tar.gz",
             "destination": "meshroom/Meshroom-2023.1.0-linux.tar.gz",
             "sha256": "aa1556f342690a017055e3836df3e020188087298d4e4272b85f809fd14cc437",
+            "autodownload": false
+        },
+        "2023.3.0": {
+            "source": "https://www.fosshub.com/Meshroom.html?dwl=Meshroom-2023.3.0-linux.tar.gz",
+            "destination": "meshroom/Meshroom-2023.3.0-linux.tar.gz",
+            "sha256": "92b81246356df3fd37ea08e1d09519392897aaa730843eb9fd4bd0582916d391",
             "autodownload": false
         }
     },
@@ -907,7 +999,18 @@
             "source": "https://github.com/OpenImageDenoise/oidn/releases/download/v2.0.1/oidn-2.0.1.x86_64.linux.tar.gz",
             "destination": "oidn/oidn-2.0.1.x86_64.linux.tar.gz",
             "sha256": "63885460420263cae0cf67682f09b8c3dd421bf0f82a9209b2af40c1099a5922"
-        }
+        },
+        "2.1.0.x86_64": {
+            "source": "https://github.com/OpenImageDenoise/oidn/releases/download/v2.1.0/oidn-2.1.0.x86_64.linux.tar.gz",
+            "destination": "oidn/oidn-2.1.0.x86_64.linux.tar.gz",
+            "sha256": "53d0dc4498796f1d94e4347c3131ba1a84ecf46bced8a7ada31776525937703e"
+        },
+        "2.1.0": {
+            "source": "https://github.com/OpenImageDenoise/oidn#prerequisites",
+            "destination": "oidn/oidn-2.1.0.tar.gz",
+            "sha256": "322611c3df563a60a4d5f36b34b6189940dd3788413549b8acc782d85ff16778",
+            "autodownload": false
+        }        
     },
     "gaffer": {
         "1.2.4.0": {
@@ -931,6 +1034,16 @@
             "source": "https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda_12.1.1_530.30.02_linux.run",
             "destination": "cuda/cuda_12.1.1_530.30.02_linux.run",
             "sha256": "d74022d41d80105319dfa21beea39b77a5b9919539c0487a05caaf2446d6a70e"
+        },
+        "12.2.2_535.104.05": {
+            "source": "https://developer.download.nvidia.com/compute/cuda/12.2.2/local_installers/cuda_12.2.2_535.104.05_linux.run",
+            "destination": "cuda/cuda_12.2.2_535.104.05_linux.run",
+            "sha256": "2b39aae3e7618d9f59a3c8fa1f1bc61f29c0b0e0df75fb05076badb352952ef2"
+        },
+        "12.3.1_545.23.08": {
+            "source": "https://developer.download.nvidia.com/compute/cuda/12.3.1/local_installers/cuda_12.3.1_545.23.08_linux.run",
+            "destination": "cuda/cuda_12.3.1_545.23.08_linux.run",
+            "sha256": "b73d18ccd5ff85bbae32b425dfb82729612ede65b07a37cd5e2b574190614038"
         }
     },
     "optix": {
@@ -992,6 +1105,88 @@
             "source": "https://autodesk-adn-transfer.s3-us-west-2.amazonaws.com/ADN+Extranet/M%26E/Maya/devkit+2023/Autodesk_Maya_2023_3_Update_DEVKIT_Linux.tgz",
             "destination": "mayadevkit/Autodesk_Maya_2023_3_Update_DEVKIT_Linux.tgz",
             "sha256": "443c104c31a68399f4903417161e35f7bcca0ad5ecfed2efc89b1f5b34392c88"
+        }
+    },
+    "grpc": {
+        "1.58.1": {
+            "source": "https://github.com/grpc/grpc/archive/refs/tags/v1.58.1.zip",
+            "destination": "grpc/grpc-1.58.1.zip",
+            "sha256": "7fa38089fd87e83ed17287276b0f0fda49099a8907df2131b89999ad774bfe33"
+        }
+    },
+    "ispc": {
+        "1.22.0": {
+            "source": "https://github.com/ispc/ispc/releases/download/v1.22.0/ispc-v1.22.0-linux.tar.gz",
+            "destination": "ispc/ispc-v1.22.0-linux.tar.gz",
+            "sha256": "8c935ef7537c241a519f2632e6ffeae0988a64f21db78d403ceaa4c52517b416"
+        }
+    },
+    "rkcommon": {
+        "1.12.0": {
+            "source": "https://github.com/ospray/rkcommon/archive/refs/tags/v1.12.0.tar.gz",
+            "destination": "rkcommon/rkcommon-1.12.0.tar.gz",
+            "sha256": "6abb901073811cdbcbe336772e1fcb458d78cab5ad8d5d61de2b57ab83581e80"
+        }
+    },
+    "oneapilevelzero": {
+        "1.12.0": {
+            "source": "https://github.com/oneapi-src/level-zero/archive/refs/tags/v1.12.0.tar.gz",
+            "destination": "oneapilevelzero/oneapilevelzero-1.12.0.tar.gz",
+            "sha256": "96e6f7ce0179833316f70582ebe4889619349cd4fb1a76efd49a71d8e8ac2e93"
+        }
+    },
+    "oneapidpcplusplus": {
+        "20230922": {
+            "source": "https://github.com/intel/llvm/archive/refs/tags/nightly-2023-09-22.tar.gz",
+            "destination": "oneapidpcplusplus/oneapidpcplusplus-20230922.tar.gz",
+            "sha256": "01ca75d7c7c451ef728bf8b10b4df84e66a6ef55e3eae63aaeac7108bbc2c450"
+        }
+    },
+    "openvkl": {
+        "2.0.0": {
+            "source": "https://github.com/openvkl/openvkl/archive/refs/tags/v2.0.0.tar.gz",
+            "destination": "openvkl/openvkl-2.0.0.tar.gz",
+            "sha256": "469c3fba254c4fcdd84f8a9763d2e1aaa496dc123b5a9d467cc0a561e284c4e6"
+        }
+    },
+    "ospray": {
+        "3.0.0": {
+            "source": "https://github.com/ospray/ospray/archive/refs/tags/v3.0.0.tar.gz",
+            "destination": "ospray/ospray-3.0.0.tar.gz",
+            "sha256": "d8d8e632d77171c810c0f38f8d5c8387470ca19b75f5b80ad4d3d12007280288"
+        }
+    },
+    "hdospray": {
+        "1.0.0": {
+            "source": "https://github.com/ospray/hdospray/archive/refs/tags/v1.0.0-usdv23.02.tar.gz",
+            "destination": "hdospray/hdospray-1.0.0.tar.gz",
+            "sha256": "22f1128406123741bc7ea8381f4d45d9d048cd216eb85c5df3bc6ba0419f875e"
+        }
+    },
+    "jdk": {
+        "17.0.9": {
+            "source": "https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz",
+            "destination": "jdk/jdk-17_linux-x64_bin.tar.gz",
+            "sha256": "ad45ac97b3bc65497376f98ee276f84f4ab55ef2f62ab7f82ac0013e5b17744a"
+        }
+    },
+    "tomcat": {
+        "9.0.83": {
+            "source": "https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.83/bin/apache-tomcat-9.0.83.tar.gz",
+            "destination": "tomcat/apache-tomcat-9.0.83.tar.gz",
+            "sha256": "76092dae89dc1f3ae6dd11404d64852761a401f18cd373c93b5ff7ef2ce4f90a"
+        },
+        "10.1.16": {
+            "source": "https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.16/bin/apache-tomcat-10.1.16.tar.gz",
+            "destination": "tomcat/apache-tomcat-10.1.16.tar.gz",
+            "sha256": "432b0b98a377450f13b9a47b82ea7df78ed0bcf2ee4b759182b4c7fdc1fe5841"
+        }
+    },
+    "jenkins": {
+        "2.426.1": {
+            "source": "https://get.jenkins.io/war-stable/2.426.1/jenkins.war",
+            "destination": "jenkins/jenkins-2.426.1.war",
+            "sha256": "8d84f3cdd6430c098d1f4f38740957e3f2d0ac261b2f9c68cbf9c306363fd1c8"
         }
     }
 }
